@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MassFileRenameGUI.iml" filepath="$PROJECT_DIR$/MassFileRenameGUI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MassFileRenamer.iml" filepath="$PROJECT_DIR$/MassFileRenamer.iml" />
     </modules>
   </component>
 </project>
