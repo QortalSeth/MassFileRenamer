@@ -5,7 +5,7 @@ Organizes files in a directory by numbering them. Usually used on directories co
 
 Run the file MassFileRenamer.jar found in the executable folder.
 
-[Image Not Found](Images/MassFileRenamer.png)
+![Image Not Found](Images/MassFileRenamer.png)
 
 
 
