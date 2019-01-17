@@ -11,8 +11,8 @@ public class Main extends Application {
 	@Override
 	public void start(Stage primaryStage) {
 		try {
-		    AnchorPane root =(AnchorPane) FXMLLoader.load(Main.class.getResource("/application/Old.fxml"));
-		    primaryStage.setTitle("Mass File Rename");
+		    AnchorPane root = FXMLLoader.load(Main.class.getResource("/application/MassFileRenamer.fxml"));
+		    primaryStage.setTitle("Mass File Renamer");
 	        primaryStage.setScene(new Scene(root));
 		    primaryStage.show();
 		    

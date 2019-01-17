@@ -1,0 +1,1871 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 219 ciObject found
+instanceKlass com/sun/javafx/tk/quantum/PaintCollector$2
+instanceKlass java/util/Collections$UnmodifiableList$1
+instanceKlass javafx/animation/Animation$1$1
+instanceKlass com/sun/scenario/animation/AnimationPulse$PulseData$8
+instanceKlass com/sun/scenario/animation/AnimationPulse$PulseData$7
+instanceKlass com/sun/scenario/animation/AnimationPulse$PulseData$6
+instanceKlass com/sun/scenario/animation/AnimationPulse$PulseData$5
+instanceKlass com/sun/scenario/animation/AnimationPulse$PulseData$4
+instanceKlass com/sun/scenario/animation/AnimationPulse$PulseData$3
+instanceKlass com/sun/scenario/animation/AnimationPulse$PulseData$2
+instanceKlass com/sun/scenario/animation/AnimationPulse$PulseData$1
+instanceKlass com/sun/scenario/animation/AnimationPulse$PulseData
+instanceKlass com/sun/scenario/animation/AnimationPulse$PulseData$Accessor
+instanceKlass java/util/concurrent/ConcurrentLinkedQueue$Node
+instanceKlass com/sun/scenario/animation/AnimationPulse$AnimationPulseHolder
+instanceKlass com/sun/scenario/animation/AnimationPulse
+instanceKlass com/sun/scenario/animation/AnimationPulseMBean
+instanceKlass com/sun/javafx/tk/quantum/GlassSceneDnDEventHandler$5
+instanceKlass javafx/animation/Animation$5
+instanceKlass javafx/scene/Scene$ClickCounter$1
+instanceKlass com/sun/javafx/tk/TKDragSourceListener
+instanceKlass javafx/scene/Scene$DnDGesture
+instanceKlass com/sun/glass/ui/win/WinClipboardDelegate
+instanceKlass com/sun/glass/ui/Clipboard
+instanceKlass javafx/scene/Node$21
+instanceKlass java/util/EnumMap$EnumMapIterator
+instanceKlass com/sun/javafx/scene/input/InputEventUtils
+instanceKlass javafx/scene/input/PickResult
+instanceKlass javafx/scene/input/MouseEvent$Flags
+instanceKlass com/sun/prism/impl/ManagedResource$WeakLinkedList
+instanceKlass com/sun/prism/impl/ManagedResource
+instanceKlass com/sun/prism/impl/Disposer
+instanceKlass com/sun/glass/ui/Size
+instanceKlass com/sun/javafx/tk/quantum/CursorUtils$1
+instanceKlass com/sun/javafx/tk/quantum/CursorUtils
+instanceKlass com/sun/javafx/tk/quantum/ViewScene$1
+instanceKlass com/sun/javafx/geom/Path2D$SVGParser
+instanceKlass com/sun/javafx/sg/prism/EffectFilter
+instanceKlass com/sun/scenario/effect/GaussianShadow$1
+instanceKlass com/sun/javafx/tk/Toolkit$5
+instanceKlass com/sun/scenario/effect/impl/state/LinearConvolveKernel
+instanceKlass com/sun/scenario/effect/Color4f
+instanceKlass javafx/scene/effect/Effect$1
+instanceKlass com/sun/javafx/tk/Toolkit$3
+instanceKlass com/sun/javafx/logging/PulseLogger$2
+instanceKlass com/sun/javafx/logging/PulseLogger$1
+instanceKlass com/sun/javafx/logging/PulseLogger
+instanceKlass com/sun/javafx/tk/Toolkit$4
+instanceKlass javafx/geometry/Rectangle2D
+instanceKlass javafx/stage/Screen$1
+instanceKlass com/sun/javafx/tk/TKScreenConfigurationListener
+instanceKlass javafx/stage/Screen
+instanceKlass com/sun/javafx/scene/control/skin/Utils$1
+instanceKlass javafx/scene/layout/Region$13
+instanceKlass com/sun/javafx/scene/control/behavior/TextBinding
+instanceKlass javafx/scene/Parent$4
+instanceKlass com/sun/javafx/text/ScriptMapper
+instanceKlass sun/text/bidi/BidiLine
+instanceKlass sun/text/normalizer/UTF16
+instanceKlass sun/text/normalizer/CharTrie$FriendAgent
+instanceKlass sun/text/normalizer/Trie$DefaultGetFoldingOffset
+instanceKlass sun/text/normalizer/Trie$DataManipulate
+instanceKlass sun/text/normalizer/Trie
+instanceKlass sun/text/normalizer/ICUBinary
+instanceKlass sun/text/normalizer/UBiDiProps$IsAcceptable
+instanceKlass sun/text/normalizer/ICUBinary$Authenticate
+instanceKlass sun/text/normalizer/ICUData
+instanceKlass sun/text/normalizer/UBiDiProps
+instanceKlass sun/text/bidi/BidiBase$Point
+instanceKlass sun/text/bidi/BidiBase$InsertPoints
+instanceKlass sun/text/bidi/BidiRun
+instanceKlass sun/text/bidi/BidiBase$ImpTabPair
+instanceKlass sun/text/bidi/BidiBase
+instanceKlass java/text/Bidi
+instanceKlass javafx/collections/FXCollections$UnmodifiableObservableSet$2
+instanceKlass javafx/scene/layout/StackPane$StyleableProperties
+instanceKlass com/sun/javafx/scene/control/skin/ScrollBarSkin$11
+instanceKlass com/sun/javafx/scene/control/skin/ScrollBarSkin$10
+instanceKlass com/sun/javafx/scene/control/skin/ScrollBarSkin$9
+instanceKlass com/sun/javafx/scene/control/skin/ScrollBarSkin$8
+instanceKlass com/sun/javafx/scene/control/skin/ScrollBarSkin$7
+instanceKlass com/sun/javafx/scene/control/skin/ScrollBarSkin$6
+instanceKlass com/sun/javafx/scene/control/skin/ScrollBarSkin$5
+instanceKlass com/sun/javafx/scene/control/skin/ScrollBarSkin$4
+instanceKlass com/sun/javafx/scene/control/skin/ScrollBarSkin$3
+instanceKlass com/sun/javafx/scene/control/skin/ScrollBarSkin$2
+instanceKlass com/sun/javafx/scene/control/skin/ScrollBarSkin$1
+instanceKlass com/sun/javafx/css/BitSet$1
+instanceKlass javafx/scene/control/ScrollBar$StyleableProperties
+instanceKlass com/sun/javafx/scene/control/skin/ListViewSkin$11
+instanceKlass com/sun/javafx/scene/control/skin/ListViewSkin$10
+instanceKlass com/sun/javafx/scene/control/skin/ListViewSkin$9
+instanceKlass com/sun/javafx/scene/control/skin/ListViewSkin$8
+instanceKlass com/sun/javafx/scene/control/skin/ListViewSkin$7
+instanceKlass com/sun/javafx/scene/control/skin/ListViewSkin$6
+instanceKlass com/sun/javafx/scene/control/skin/ListViewSkin$5
+instanceKlass com/sun/javafx/scene/control/skin/ListViewSkin$4
+instanceKlass com/sun/javafx/scene/control/skin/ListViewSkin$3
+instanceKlass com/sun/javafx/scene/control/skin/ListViewSkin$2
+instanceKlass com/sun/javafx/scene/control/skin/ListViewSkin$12
+instanceKlass com/sun/javafx/scene/control/skin/VirtualContainerBase$1
+instanceKlass com/sun/javafx/scene/control/skin/VirtualFlow$15
+instanceKlass com/sun/javafx/scene/control/skin/VirtualFlow$14
+instanceKlass com/sun/javafx/scene/control/skin/VirtualFlow$13
+instanceKlass com/sun/javafx/scene/control/skin/VirtualFlow$12
+instanceKlass com/sun/javafx/scene/control/skin/VirtualFlow$11
+instanceKlass javafx/scene/layout/StackPane$1
+instanceKlass com/sun/javafx/scene/control/skin/VirtualFlow$10
+instanceKlass com/sun/javafx/scene/control/skin/VirtualFlow$9
+instanceKlass com/sun/javafx/scene/control/skin/VirtualFlow$8
+instanceKlass com/sun/javafx/scene/control/skin/VirtualFlow$7
+instanceKlass com/sun/javafx/scene/control/skin/VirtualFlow$6
+instanceKlass com/sun/javafx/scene/control/skin/VirtualFlow$5
+instanceKlass com/sun/javafx/scene/control/skin/VirtualFlow$4
+instanceKlass com/sun/javafx/scene/control/skin/VirtualFlow$3
+instanceKlass com/sun/javafx/scene/control/skin/VirtualFlow$2
+instanceKlass com/sun/javafx/scene/control/skin/VirtualFlow$ClippedContainer$2
+instanceKlass com/sun/javafx/scene/control/skin/VirtualFlow$ClippedContainer$1
+instanceKlass com/sun/javafx/scene/control/skin/VirtualScrollBar$1
+instanceKlass com/sun/javafx/scene/control/behavior/ListViewBehavior$4
+instanceKlass com/sun/javafx/scene/control/behavior/ListViewBehavior$3
+instanceKlass com/sun/javafx/scene/control/behavior/ListViewBehavior$2
+instanceKlass com/sun/javafx/scene/control/behavior/ListViewBehavior$1
+instanceKlass com/sun/javafx/scene/control/behavior/KeyBinding$1
+instanceKlass com/sun/javafx/scene/control/skin/ListViewSkin$1
+instanceKlass javafx/scene/control/ListView$StyleableProperties
+instanceKlass javafx/scene/layout/HBox$StyleableProperties
+instanceKlass com/sun/javafx/font/directwrite/DWRITE_GLYPH_METRICS
+instanceKlass com/sun/javafx/font/directwrite/DWRITE_GLYPH_RUN
+instanceKlass com/sun/javafx/font/directwrite/RECT
+instanceKlass com/sun/javafx/font/directwrite/D2D1_MATRIX_3X2_F
+instanceKlass com/sun/javafx/font/directwrite/D2D1_COLOR_F
+instanceKlass com/sun/javafx/font/directwrite/DWGlyph
+instanceKlass com/sun/javafx/font/CMap
+instanceKlass com/sun/javafx/font/Glyph
+instanceKlass com/sun/javafx/geom/Path2D$Iterator
+instanceKlass com/sun/javafx/scene/shape/PathUtils
+instanceKlass com/sun/javafx/scene/control/skin/TextFieldSkin$20
+instanceKlass com/sun/javafx/scene/control/skin/TextInputControlSkin$StyleableProperties
+instanceKlass com/sun/javafx/scene/control/skin/TextFieldSkin$15
+instanceKlass com/sun/javafx/scene/control/skin/TextFieldSkin$14
+instanceKlass com/sun/javafx/scene/control/skin/TextFieldSkin$13
+instanceKlass com/sun/javafx/scene/control/skin/TextFieldSkin$11
+instanceKlass com/sun/javafx/scene/control/skin/TextFieldSkin$10
+instanceKlass com/sun/javafx/scene/control/skin/TextFieldSkin$9
+instanceKlass com/sun/javafx/WeakReferenceQueue$1
+instanceKlass javafx/scene/text/Text$11
+instanceKlass com/sun/javafx/text/TextLine
+instanceKlass java/util/ArrayList$SubList$1
+instanceKlass com/sun/javafx/font/PrismMetrics
+instanceKlass com/sun/javafx/text/LayoutCache
+instanceKlass com/sun/javafx/text/TextRun
+instanceKlass javafx/scene/shape/Shape$StrokeAttributes
+instanceKlass com/sun/javafx/scene/control/skin/TextFieldSkin$7
+instanceKlass javafx/beans/binding/Bindings$ShortCircuitAndInvalidator
+instanceKlass javafx/beans/value/ObservableLongValue
+instanceKlass javafx/beans/value/ObservableFloatValue
+instanceKlass javafx/beans/binding/Bindings
+instanceKlass com/sun/javafx/scene/control/skin/TextFieldSkin$6
+instanceKlass com/sun/javafx/scene/control/skin/TextFieldSkin$2
+instanceKlass com/sun/javafx/scene/control/skin/TextFieldSkin$1
+instanceKlass com/sun/javafx/geom/PathIterator
+instanceKlass com/sun/javafx/scene/control/skin/TextInputControlSkin$14
+instanceKlass com/sun/javafx/scene/control/skin/TextInputControlSkin$13
+instanceKlass com/sun/javafx/scene/control/skin/TextInputControlSkin$ContextMenuItem$1
+instanceKlass com/sun/javafx/scene/control/skin/resources/ControlResources
+instanceKlass com/sun/javafx/scene/control/skin/TextInputControlSkin$CaretBlinking$2
+instanceKlass javafx/animation/KeyValue
+instanceKlass com/sun/javafx/scene/control/skin/TextInputControlSkin$CaretBlinking$1
+instanceKlass com/sun/scenario/animation/shared/InterpolationInterval
+instanceKlass com/sun/scenario/animation/shared/ClipInterpolator
+instanceKlass javafx/animation/KeyFrame
+instanceKlass com/sun/scenario/animation/shared/TimelineClipCore$1
+instanceKlass com/sun/scenario/animation/shared/TimelineClipCore
+instanceKlass com/sun/scenario/animation/shared/ClipEnvelope
+instanceKlass javafx/animation/Animation$1
+instanceKlass javafx/util/Duration
+instanceKlass com/sun/scenario/animation/shared/AnimationAccessor
+instanceKlass javafx/animation/Animation
+instanceKlass com/sun/javafx/scene/control/skin/TextInputControlSkin$CaretBlinking
+instanceKlass com/sun/javafx/scene/control/skin/Utils
+instanceKlass com/sun/javafx/scene/control/behavior/TextFieldBehavior$3
+instanceKlass com/sun/javafx/scene/control/behavior/TextFieldBehavior$2
+instanceKlass com/sun/javafx/scene/control/behavior/TextFieldBehavior$1
+instanceKlass javafx/stage/PopupWindow$3
+instanceKlass com/sun/javafx/TempState
+instanceKlass javafx/stage/PopupWindow$2
+instanceKlass javafx/stage/PopupWindow$1
+instanceKlass javafx/scene/input/KeyCombination$Modifier
+instanceKlass com/sun/javafx/scene/control/behavior/TextInputControlBehavior$1
+instanceKlass com/sun/javafx/scene/control/behavior/TextInputControlBehavior$UndoManager
+instanceKlass com/sun/javafx/scene/control/behavior/TextInputControlBindings
+instanceKlass com/sun/javafx/scene/control/skin/TextInputControlSkin$1
+instanceKlass javafx/scene/control/MenuItem
+instanceKlass com/sun/javafx/cursor/CursorFrame
+instanceKlass javafx/scene/control/TextInputControl$StyleableProperties
+instanceKlass javafx/scene/control/TextField$StyleableProperties
+instanceKlass javafx/scene/control/SkinBase$StyleableProperties
+instanceKlass com/sun/javafx/scene/control/Logging
+instanceKlass com/sun/javafx/scene/control/skin/ButtonSkin$2
+instanceKlass com/sun/javafx/scene/control/skin/ButtonSkin$1
+instanceKlass com/sun/javafx/scene/control/MultiplePropertyChangeListenerHandler$1
+instanceKlass com/sun/javafx/scene/control/skin/BehaviorSkinBase$2
+instanceKlass com/sun/javafx/scene/control/MultiplePropertyChangeListenerHandler
+instanceKlass javafx/beans/property/DoublePropertyBase$Listener
+instanceKlass javafx/beans/property/BooleanPropertyBase$Listener
+instanceKlass javafx/beans/property/ObjectPropertyBase$Listener
+instanceKlass com/sun/javafx/font/Disposer$1
+instanceKlass com/sun/javafx/font/Disposer
+instanceKlass com/sun/javafx/font/CompositeStrikeDisposer
+instanceKlass com/sun/javafx/font/Metrics
+instanceKlass com/sun/javafx/font/CompositeStrike
+instanceKlass com/sun/javafx/font/FontStrikeDesc
+instanceKlass com/sun/javafx/font/PrismCompositeFontResource
+instanceKlass java/io/RandomAccessFile$1
+instanceKlass com/sun/javafx/font/PrismFontFile$DirectoryEntry
+instanceKlass com/sun/javafx/font/FontFileReader$Buffer
+instanceKlass java/io/RandomAccessFile
+instanceKlass com/sun/javafx/font/FontFileReader$1
+instanceKlass com/sun/javafx/font/FontFileReader
+instanceKlass com/sun/javafx/font/PrismFontStrike
+instanceKlass com/sun/javafx/font/DisposerRecord
+instanceKlass com/sun/javafx/font/WindowsFontMap$FamilyDescription
+instanceKlass com/sun/javafx/font/WindowsFontMap
+instanceKlass com/sun/javafx/scene/text/TextLine
+instanceKlass com/sun/javafx/scene/text/GlyphList
+instanceKlass java/text/CharacterIterator
+instanceKlass com/sun/javafx/text/PrismTextLayout
+instanceKlass com/sun/javafx/scene/text/TextLayout
+instanceKlass com/sun/javafx/text/PrismTextLayoutFactory
+instanceKlass javafx/scene/text/Text$TextAttribute
+instanceKlass javafx/scene/text/Text$2
+instanceKlass javafx/scene/text/Text$1
+instanceKlass javafx/beans/WeakInvalidationListener
+instanceKlass javafx/scene/shape/Shape$StyleableProperties
+instanceKlass javafx/scene/text/Text$StyleableProperties
+instanceKlass com/sun/javafx/scene/text/TextSpan
+instanceKlass com/sun/javafx/accessible/AccessibleNode
+instanceKlass com/sun/javafx/beans/event/AbstractNotifyListener
+instanceKlass com/sun/javafx/scene/control/skin/LabeledSkinBase$1
+instanceKlass com/sun/javafx/scene/control/skin/BehaviorSkinBase$1
+instanceKlass com/sun/javafx/scene/control/behavior/BehaviorBase$2
+instanceKlass com/sun/javafx/scene/control/behavior/BehaviorBase$1
+instanceKlass com/sun/javafx/robot/impl/FXRobotHelper$FXRobotInputAccessor
+instanceKlass com/sun/javafx/scene/control/behavior/KeyBinding
+instanceKlass javafx/scene/control/SkinBase$1
+instanceKlass com/sun/javafx/scene/control/behavior/BehaviorBase
+instanceKlass javafx/scene/paint/Stop
+instanceKlass javafx/scene/control/Control$StyleableProperties
+instanceKlass javafx/scene/control/Labeled$StyleableProperties
+instanceKlass javafx/scene/layout/BackgroundFill
+instanceKlass com/sun/javafx/css/StyleCacheEntry
+instanceKlass com/sun/javafx/css/CalculatedValue
+instanceKlass com/sun/javafx/css/Style
+instanceKlass com/sun/javafx/css/CascadingStyle
+instanceKlass com/sun/javafx/css/parser/StopConverter$Holder
+instanceKlass com/sun/javafx/css/parser/LadderConverter$Holder
+instanceKlass com/sun/javafx/css/parser/DeriveColorConverter$Holder
+instanceKlass com/sun/javafx/css/Size
+instanceKlass com/sun/javafx/css/Declaration
+instanceKlass com/sun/javafx/css/Rule$Observables
+instanceKlass com/sun/javafx/css/Match
+instanceKlass com/sun/javafx/css/StyleCacheEntry$Key
+instanceKlass com/sun/javafx/css/StyleCache
+instanceKlass com/sun/javafx/css/converters/EffectConverter$Holder
+instanceKlass com/sun/javafx/css/converters/CursorConverter$Holder
+instanceKlass javafx/scene/Node$StyleableProperties
+instanceKlass com/sun/javafx/css/converters/BooleanConverter$Holder
+instanceKlass javafx/scene/layout/Region$StyleableProperties
+instanceKlass com/sun/javafx/css/StyleCache$Key
+instanceKlass javafx/scene/CssStyleHelper$CacheContainer
+instanceKlass com/sun/javafx/css/StyleMap$1
+instanceKlass com/sun/javafx/css/StyleMap
+instanceKlass com/sun/javafx/css/StyleManager$Cache$Key
+instanceKlass com/sun/javafx/css/StyleManager$Cache
+instanceKlass java/util/TimSort
+instanceKlass java/util/Arrays$LegacyMergeSort
+instanceKlass com/sun/javafx/css/StyleManager$Key
+instanceKlass com/sun/javafx/css/StyleManager$CacheContainer
+instanceKlass com/sun/javafx/css/converters/FontConverter$FontWeightConverter$Holder
+instanceKlass com/sun/javafx/css/converters/FontConverter$FontStyleConverter$Holder
+instanceKlass com/sun/javafx/css/converters/SizeConverter$Holder
+instanceKlass com/sun/javafx/css/converters/StringConverter$Holder
+instanceKlass com/sun/javafx/css/converters/FontConverter$Holder
+instanceKlass javafx/css/ParsedValue
+instanceKlass javafx/scene/CssStyleHelper
+instanceKlass javafx/scene/Node$24
+instanceKlass com/sun/javafx/geom/DirtyRegionContainer
+instanceKlass com/sun/javafx/geom/DirtyRegionPool
+instanceKlass com/sun/javafx/sg/prism/NodePath
+instanceKlass javafx/scene/Scene$InputMethodRequestsDelegate
+instanceKlass com/sun/javafx/scene/input/ExtendedInputMethodRequests
+instanceKlass javafx/scene/Scene$DropTargetListener
+instanceKlass com/sun/javafx/scene/transform/TransformUtils
+instanceKlass javafx/scene/Camera$1
+instanceKlass com/sun/javafx/scene/CameraHelper
+instanceKlass javafx/scene/Camera$4
+instanceKlass com/sun/javafx/scene/CameraHelper$CameraAccessor
+instanceKlass com/sun/javafx/scene/layout/region/BorderImageSlices
+instanceKlass com/sun/javafx/scene/layout/region/Margins$Holder
+instanceKlass javafx/scene/layout/BackgroundSize
+instanceKlass javafx/scene/layout/BackgroundPosition
+instanceKlass com/sun/javafx/scene/layout/region/RepeatStruct
+instanceKlass com/sun/javafx/css/converters/URLConverter$Holder
+instanceKlass com/sun/javafx/css/converters/InsetsConverter$Holder
+instanceKlass com/sun/javafx/css/converters/PaintConverter$Holder
+instanceKlass com/sun/scenario/effect/impl/state/AccessHelper
+instanceKlass com/sun/scenario/effect/Effect$1
+instanceKlass com/sun/scenario/effect/impl/state/AccessHelper$StateAccessor
+instanceKlass com/sun/javafx/geom/Rectangle
+instanceKlass com/sun/prism/paint/Paint
+instanceKlass com/sun/scenario/effect/Effect
+instanceKlass javafx/scene/Scene$ScenePeerPaintListener
+instanceKlass javafx/scene/Scene$ScenePeerListener
+instanceKlass com/sun/javafx/tk/quantum/GlassScene$1
+instanceKlass com/sun/javafx/tk/quantum/SwipeGestureRecognizer$CenterComputer
+instanceKlass com/sun/javafx/tk/quantum/SwipeGestureRecognizer$MultiTouchTracker
+instanceKlass com/sun/javafx/tk/quantum/SwipeGestureRecognizer
+instanceKlass com/sun/javafx/tk/quantum/GestureRecognizers
+instanceKlass com/sun/javafx/tk/quantum/GlassSceneDnDEventHandler
+instanceKlass com/sun/javafx/tk/quantum/GlassViewEventHandler$ViewEventNotification
+instanceKlass com/sun/javafx/tk/quantum/GlassViewEventHandler$MouseEventNotification
+instanceKlass com/sun/javafx/tk/quantum/GlassViewEventHandler$KeyEventNotification
+instanceKlass com/sun/javafx/tk/quantum/GestureRecognizer
+instanceKlass com/sun/javafx/tk/quantum/GlassTouchEventListener
+instanceKlass com/sun/prism/PresentableState
+instanceKlass com/sun/javafx/tk/quantum/ViewPainter
+instanceKlass com/sun/glass/ui/View$EventHandler
+instanceKlass com/sun/glass/ui/ClipboardAssistance
+instanceKlass com/sun/javafx/stage/StagePeerListener$1
+instanceKlass java/lang/StrictMath
+instanceKlass com/sun/glass/ui/GestureSupport$1
+instanceKlass com/sun/glass/ui/TouchInputSupport
+instanceKlass com/sun/glass/ui/GestureSupport$GestureState
+instanceKlass com/sun/glass/ui/TouchInputSupport$TouchCountListener
+instanceKlass com/sun/glass/ui/GestureSupport
+instanceKlass com/sun/glass/ui/win/WinGestureSupport
+instanceKlass com/sun/javafx/tk/quantum/WindowStage$2
+instanceKlass com/sun/javafx/tk/quantum/GlassStage$1
+instanceKlass java/util/Properties$LineReader
+instanceKlass java/util/ResourceBundle$Control$1
+instanceKlass java/util/ResourceBundle$CacheKeyReference
+instanceKlass java/util/ResourceBundle$CacheKey
+instanceKlass java/util/ResourceBundle$Control
+instanceKlass java/util/spi/ResourceBundleControlProvider
+instanceKlass com/sun/javafx/tk/quantum/GlassScene
+instanceKlass com/sun/javafx/tk/TKScene
+instanceKlass com/sun/glass/ui/Window$EventHandler
+instanceKlass com/sun/javafx/tk/quantum/GlassStage
+instanceKlass com/sun/javafx/event/EventUtil
+instanceKlass javafx/scene/Scene$KeyHandler$1
+instanceKlass javafx/scene/Scene$KeyHandler
+instanceKlass sun/util/logging/LoggingSupport$2
+instanceKlass java/util/logging/LoggingProxyImpl
+instanceKlass sun/util/logging/LoggingProxy
+instanceKlass sun/util/logging/LoggingSupport$1
+instanceKlass sun/util/logging/LoggingSupport
+instanceKlass sun/util/logging/PlatformLogger$LoggerProxy
+instanceKlass sun/util/logging/PlatformLogger$1
+instanceKlass sun/util/logging/PlatformLogger
+instanceKlass com/sun/javafx/Logging
+instanceKlass com/sun/javafx/scene/traversal/ContainerTabOrder
+instanceKlass com/sun/javafx/scene/traversal/Algorithm
+instanceKlass javafx/scene/Scene$ClickCounter
+instanceKlass javafx/scene/Scene$ClickGenerator
+instanceKlass javafx/scene/Scene$MouseHandler$1
+instanceKlass com/sun/javafx/event/EventQueue
+instanceKlass javafx/scene/Scene$MouseHandler
+instanceKlass javafx/scene/Scene$TouchMap
+instanceKlass javafx/scene/Scene$TouchGesture
+instanceKlass javafx/scene/Scene$TargetWrapper
+instanceKlass javafx/scene/Scene$ScenePulseListener
+instanceKlass javafx/scene/SceneAntialiasing
+instanceKlass javafx/scene/paint/Paint$1
+instanceKlass com/sun/javafx/tk/Toolkit$PaintAccessor
+instanceKlass javafx/scene/Scene$55
+instanceKlass com/sun/javafx/scene/SceneHelper
+instanceKlass javafx/scene/Scene$3
+instanceKlass com/sun/javafx/tk/TKDropTargetListener
+instanceKlass com/sun/javafx/tk/TKScenePaintListener
+instanceKlass com/sun/javafx/tk/TKSceneListener
+instanceKlass com/sun/javafx/scene/SceneHelper$SceneAccessor
+instanceKlass com/sun/javafx/robot/impl/FXRobotHelper$FXRobotSceneAccessor
+instanceKlass com/sun/javafx/perf/PerformanceTracker$SceneAccessor
+instanceKlass javafx/fxml/Initializable
+instanceKlass com/sun/javafx/fxml/expression/Expression
+instanceKlass javafx/scene/control/Label$1
+instanceKlass javafx/scene/control/ListView$ListViewFocusModel$2
+instanceKlass javafx/scene/control/ListView$ListViewFocusModel$1
+instanceKlass javafx/scene/control/FocusModel$1
+instanceKlass javafx/beans/value/WeakChangeListener
+instanceKlass javafx/scene/control/ListView$ListViewBitSetSelectionModel$2
+instanceKlass javafx/scene/control/ListView$ListViewBitSetSelectionModel$1
+instanceKlass javafx/scene/control/MultipleSelectionModelBase$3
+instanceKlass javafx/scene/control/MultipleSelectionModelBase$2
+instanceKlass javafx/scene/control/MultipleSelectionModelBase$1
+instanceKlass com/sun/javafx/scene/control/ReadOnlyUnbackedObservableList
+instanceKlass com/sun/javafx/collections/MappingChange$Map
+instanceKlass javafx/scene/control/ListView$1
+instanceKlass javafx/scene/control/FocusModel
+instanceKlass javafx/scene/control/SelectionModel
+instanceKlass javafx/scene/layout/HBox$1
+instanceKlass javafx/beans/property/StringPropertyBase$Listener
+instanceKlass javafx/beans/property/IntegerPropertyBase$Listener
+instanceKlass com/sun/javafx/binding/BindingHelperObserver
+instanceKlass javafx/scene/control/TextInputControl$1
+instanceKlass javafx/scene/control/IndexRange
+instanceKlass javafx/scene/control/TextField$TextFieldContent
+instanceKlass javafx/beans/value/ObservableIntegerValue
+instanceKlass javafx/beans/value/WritableIntegerValue
+instanceKlass javafx/scene/control/TextInputControl$Content
+instanceKlass java/util/Collections$1
+instanceKlass sun/reflect/generics/reflectiveObjects/LazyReflectiveObjectGenerator
+instanceKlass java/lang/reflect/TypeVariable
+instanceKlass sun/reflect/generics/tree/TypeVariableSignature
+instanceKlass sun/reflect/generics/tree/ClassSignature
+instanceKlass sun/reflect/generics/reflectiveObjects/ParameterizedTypeImpl
+instanceKlass java/lang/reflect/ParameterizedType
+instanceKlass sun/reflect/generics/tree/MethodTypeSignature
+instanceKlass sun/reflect/generics/tree/Signature
+instanceKlass sun/reflect/generics/tree/FormalTypeParameter
+instanceKlass javafx/fxml/FXMLLoader$ControllerMethodEventHandler
+instanceKlass javafx/fxml/FXMLLoader$MethodHandler
+instanceKlass java/util/EnumMap$1
+instanceKlass sun/reflect/ClassDefiner$1
+instanceKlass sun/reflect/ClassDefiner
+instanceKlass sun/reflect/MethodAccessorGenerator$1
+instanceKlass sun/reflect/Label$PatchInfo
+instanceKlass sun/reflect/Label
+instanceKlass sun/reflect/UTF8
+instanceKlass sun/reflect/ClassFileAssembler
+instanceKlass sun/reflect/ByteVectorImpl
+instanceKlass sun/reflect/ByteVector
+instanceKlass sun/reflect/ByteVectorFactory
+instanceKlass sun/reflect/AccessorGenerator
+instanceKlass sun/reflect/ClassFileConstants
+instanceKlass com/sun/javafx/font/PrismFont
+instanceKlass com/sun/javafx/font/CharToGlyphMapper
+instanceKlass com/sun/javafx/font/FontStrike
+instanceKlass com/sun/javafx/font/LogicalFont
+instanceKlass com/sun/javafx/font/CompositeFontResource
+instanceKlass com/sun/javafx/font/directwrite/IUnknown
+instanceKlass com/sun/javafx/font/directwrite/OS$1
+instanceKlass com/sun/javafx/font/directwrite/OS
+instanceKlass com/sun/javafx/font/PrismFontFile
+instanceKlass com/sun/javafx/font/FontConstants
+instanceKlass com/sun/javafx/text/GlyphLayout
+instanceKlass com/sun/javafx/font/PrismFontFactory$1
+instanceKlass com/sun/javafx/font/FontResource
+instanceKlass com/sun/javafx/font/PGFont
+instanceKlass com/sun/javafx/font/PrismFontFactory
+instanceKlass javafx/scene/control/SkinBase
+instanceKlass javafx/event/WeakEventHandler
+instanceKlass com/sun/javafx/event/CompositeEventHandler$EventProcessorRecord
+instanceKlass com/sun/javafx/event/CompositeEventHandler
+instanceKlass javafx/event/Event$1
+instanceKlass javafx/scene/control/Control$1
+instanceKlass com/sun/javafx/application/PlatformImpl$15
+instanceKlass com/sun/javafx/tk/quantum/QuantumToolkit$20
+instanceKlass javafx/css/StyleConverter
+instanceKlass java/util/WeakHashMap$HashIterator
+instanceKlass com/sun/javafx/css/StyleManager$RefList
+instanceKlass com/sun/javafx/css/SelectorPartitioning$Slot
+instanceKlass com/sun/javafx/css/SelectorPartitioning$Partition
+instanceKlass com/sun/javafx/css/SelectorPartitioning$1
+instanceKlass com/sun/javafx/css/SelectorPartitioning$PartitionKey
+instanceKlass com/sun/javafx/css/SelectorPartitioning
+instanceKlass com/sun/javafx/css/StyleManager$StylesheetContainer
+instanceKlass java/util/SubList$1
+instanceKlass javafx/collections/ModifiableObservableListBase$SubObservableList
+instanceKlass javafx/collections/ListChangeBuilder$SubChange
+instanceKlass com/sun/javafx/css/StyleClass
+instanceKlass com/sun/javafx/css/Rule
+instanceKlass com/sun/javafx/css/StringStore
+instanceKlass com/sun/javafx/css/Stylesheet
+instanceKlass com/sun/javafx/css/StyleManager$4
+instanceKlass com/sun/javafx/css/CssError
+instanceKlass com/sun/javafx/css/StyleManager$InstanceHolder
+instanceKlass com/sun/javafx/css/StyleManager
+instanceKlass com/sun/javafx/application/PlatformImpl$14
+instanceKlass com/sun/javafx/application/PlatformImpl$12
+instanceKlass javafx/scene/control/Skin
+instanceKlass java/util/zip/ZipFile$ZipEntryIterator
+instanceKlass java/util/jar/JarFile$JarEntryIterator
+instanceKlass java/util/LinkedList$ListItr
+instanceKlass sun/reflect/UnsafeFieldAccessorFactory
+instanceKlass javafx/fxml/FXML
+instanceKlass javafx/scene/control/Skinnable
+instanceKlass java/util/ResourceBundle
+instanceKlass javafx/fxml/FXMLLoader$ControllerAccessor$1
+instanceKlass sun/reflect/misc/Trampoline
+instanceKlass sun/misc/IOUtils
+instanceKlass sun/net/www/protocol/jar/JarFileFactory
+instanceKlass sun/net/www/protocol/jar/URLJarFile$URLJarFileCloseController
+instanceKlass sun/reflect/misc/MethodUtil$1
+instanceKlass javafx/scene/input/Clipboard
+instanceKlass javafx/scene/effect/Effect
+instanceKlass javafx/css/CssMetaData
+instanceKlass com/sun/javafx/accessible/providers/AccessibleProvider
+instanceKlass javafx/scene/Node$MiscProperties
+instanceKlass com/sun/javafx/scene/EventHandlerProperties
+instanceKlass javafx/scene/Cursor
+instanceKlass com/sun/javafx/geom/Point2D
+instanceKlass javafx/scene/input/InputMethodRequests
+instanceKlass javafx/event/EventType
+instanceKlass javafx/scene/SnapshotParameters
+instanceKlass javafx/scene/Node$NodeTransformation
+instanceKlass javafx/geometry/Point2D
+instanceKlass com/sun/javafx/css/Selector
+instanceKlass com/sun/javafx/jmx/MXNodeAlgorithmContext
+instanceKlass com/sun/javafx/jmx/MXNodeAlgorithm
+instanceKlass com/sun/javafx/scene/traversal/TraversalEngine
+instanceKlass javafx/scene/layout/Border
+instanceKlass com/sun/javafx/scene/input/PickResultChooser
+instanceKlass com/sun/javafx/geom/PickRay
+instanceKlass javafx/scene/layout/Background
+instanceKlass javafx/scene/layout/BorderWidths
+instanceKlass javafx/scene/layout/CornerRadii
+instanceKlass com/sun/javafx/fxml/BeanAdapter$MethodCache
+instanceKlass com/sun/javafx/fxml/BeanAdapter$1
+instanceKlass java/util/Collections$EmptyIterator
+instanceKlass java/lang/annotation/Target
+instanceKlass sun/reflect/annotation/ExceptionProxy
+instanceKlass java/lang/Class$4
+instanceKlass java/lang/annotation/Documented
+instanceKlass java/lang/reflect/WeakCache$Value
+instanceKlass sun/misc/ProxyGenerator$ExceptionTableEntry
+instanceKlass sun/misc/ProxyGenerator$PrimitiveTypeInfo
+instanceKlass sun/misc/ProxyGenerator$FieldInfo
+instanceKlass java/io/DataOutput
+instanceKlass sun/misc/ProxyGenerator$ConstantPool$Entry
+instanceKlass sun/misc/ProxyGenerator$MethodInfo
+instanceKlass java/lang/Class$MethodArray
+instanceKlass sun/misc/ProxyGenerator$ProxyMethod
+instanceKlass sun/misc/ProxyGenerator$ConstantPool
+instanceKlass sun/security/action/GetBooleanAction
+instanceKlass sun/misc/ProxyGenerator
+instanceKlass java/lang/reflect/WeakCache$Factory
+instanceKlass java/util/function/Supplier
+instanceKlass sun/reflect/annotation/AnnotationInvocationHandler
+instanceKlass sun/reflect/annotation/AnnotationParser$1
+instanceKlass java/lang/annotation/Inherited
+instanceKlass java/lang/annotation/Retention
+instanceKlass sun/reflect/annotation/AnnotationType$1
+instanceKlass java/lang/reflect/GenericArrayType
+instanceKlass javafx/beans/DefaultProperty
+instanceKlass sun/reflect/generics/visitor/Reifier
+instanceKlass sun/reflect/generics/visitor/TypeTreeVisitor
+instanceKlass sun/reflect/generics/factory/CoreReflectionFactory
+instanceKlass sun/reflect/generics/factory/GenericsFactory
+instanceKlass sun/reflect/generics/scope/AbstractScope
+instanceKlass sun/reflect/generics/scope/Scope
+instanceKlass sun/reflect/generics/tree/ClassTypeSignature
+instanceKlass sun/reflect/generics/tree/SimpleClassTypeSignature
+instanceKlass sun/reflect/generics/tree/FieldTypeSignature
+instanceKlass sun/reflect/generics/tree/BaseType
+instanceKlass sun/reflect/generics/tree/TypeSignature
+instanceKlass sun/reflect/generics/tree/ReturnType
+instanceKlass sun/reflect/generics/tree/TypeArgument
+instanceKlass sun/reflect/generics/tree/TypeTree
+instanceKlass sun/reflect/generics/tree/Tree
+instanceKlass sun/reflect/generics/parser/SignatureParser
+instanceKlass sun/reflect/annotation/AnnotationParser
+instanceKlass com/sun/javafx/beans/IDProperty
+instanceKlass java/util/regex/ASCII
+instanceKlass java/util/regex/Matcher
+instanceKlass java/util/regex/MatchResult
+instanceKlass javafx/geometry/Insets
+instanceKlass javafx/scene/layout/Region$2
+instanceKlass javafx/collections/WeakListChangeListener
+instanceKlass javafx/beans/WeakListener
+instanceKlass javafx/collections/FXCollections$UnmodifiableObservableListImpl$1
+instanceKlass com/sun/javafx/collections/VetoableListDecorator$1
+instanceKlass com/sun/javafx/collections/VetoableListDecorator$ModCountAccessor
+instanceKlass com/sun/javafx/collections/VetoableListDecorator
+instanceKlass javafx/scene/Node$3
+instanceKlass javafx/scene/Node$2
+instanceKlass com/sun/javafx/geom/Vec2d
+instanceKlass javafx/scene/PropertyHelper$1
+instanceKlass javafx/scene/PropertyHelper
+instanceKlass com/sun/javafx/scene/NodeHelper
+instanceKlass javafx/scene/Node$23
+instanceKlass javafx/scene/Node$22
+instanceKlass javafx/collections/SetChangeListener$Change
+instanceKlass com/sun/javafx/css/BitSet
+instanceKlass javafx/css/PseudoClass
+instanceKlass javafx/geometry/Point3D
+instanceKlass javafx/scene/transform/Transform
+instanceKlass java/util/function/Function
+instanceKlass com/sun/javafx/sg/prism/NGNode
+instanceKlass javafx/css/StyleableProperty
+instanceKlass com/sun/javafx/scene/NodeHelper$NodeAccessor
+instanceKlass com/sun/javafx/scene/BoundsAccessor
+instanceKlass sun/reflect/misc/ConstructorUtil
+instanceKlass javafx/scene/shape/Mesh
+instanceKlass javafx/scene/image/Image
+instanceKlass javafx/scene/text/Font
+instanceKlass javafx/scene/Scene
+instanceKlass java/lang/reflect/Proxy$ProxyClassFactory
+instanceKlass java/lang/reflect/Proxy$KeyFactory
+instanceKlass java/util/function/BiFunction
+instanceKlass java/lang/reflect/WeakCache
+instanceKlass java/lang/reflect/InvocationHandler
+instanceKlass java/lang/reflect/Proxy
+instanceKlass application/EventHandler
+instanceKlass javafx/fxml/FXMLLoader$Attribute
+instanceKlass javafx/beans/value/ChangeListener
+instanceKlass javafx/collections/SetChangeListener
+instanceKlass javafx/collections/MapChangeListener
+instanceKlass javafx/event/EventHandler
+instanceKlass java/util/EventListener
+instanceKlass com/sun/org/apache/xerces/internal/util/XMLChar
+instanceKlass com/sun/xml/internal/stream/util/BufferAllocator
+instanceKlass com/sun/xml/internal/stream/util/ThreadLocalBufferAllocator
+instanceKlass com/sun/xml/internal/stream/Entity
+instanceKlass com/sun/org/apache/xerces/internal/util/XMLSymbols
+instanceKlass com/sun/org/apache/xerces/internal/utils/XMLLimitAnalyzer
+instanceKlass com/sun/org/apache/xerces/internal/impl/msg/XMLMessageFormatter
+instanceKlass com/sun/org/apache/xerces/internal/util/MessageFormatter
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLErrorReporter
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLEntityScanner
+instanceKlass com/sun/org/apache/xerces/internal/xni/XMLLocator
+instanceKlass com/sun/xml/internal/stream/XMLEntityStorage
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLEntityManager$CharacterBuffer
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLEntityManager$CharacterBufferPool
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLEntityManager
+instanceKlass com/sun/org/apache/xerces/internal/xni/parser/XMLEntityResolver
+instanceKlass com/sun/org/apache/xerces/internal/util/NamespaceContextWrapper
+instanceKlass javax/xml/namespace/NamespaceContext
+instanceKlass com/sun/org/apache/xerces/internal/xni/grammars/XMLDTDDescription
+instanceKlass com/sun/org/apache/xerces/internal/xni/grammars/XMLGrammarDescription
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLDocumentScannerImpl$TrailingMiscDriver
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLDocumentScannerImpl$PrologDriver
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLDocumentScannerImpl$XMLDeclDriver
+instanceKlass com/sun/org/apache/xerces/internal/util/NamespaceSupport
+instanceKlass com/sun/org/apache/xerces/internal/xni/NamespaceContext
+instanceKlass com/sun/org/apache/xerces/internal/util/AugmentationsImpl$AugmentationsItemsContainer
+instanceKlass com/sun/org/apache/xerces/internal/util/AugmentationsImpl
+instanceKlass com/sun/org/apache/xerces/internal/xni/Augmentations
+instanceKlass com/sun/org/apache/xerces/internal/util/XMLAttributesImpl$Attribute
+instanceKlass com/sun/org/apache/xerces/internal/util/XMLAttributesImpl
+instanceKlass com/sun/org/apache/xerces/internal/xni/XMLAttributes
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLDocumentFragmentScannerImpl$FragmentContentDriver
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLDocumentFragmentScannerImpl$Driver
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLDocumentFragmentScannerImpl$ElementStack2
+instanceKlass com/sun/org/apache/xerces/internal/xni/QName
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLDocumentFragmentScannerImpl$ElementStack
+instanceKlass com/sun/org/apache/xerces/internal/util/XMLResourceIdentifierImpl
+instanceKlass com/sun/org/apache/xerces/internal/xni/XMLResourceIdentifier
+instanceKlass com/sun/org/apache/xerces/internal/xni/XMLString
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLScanner
+instanceKlass com/sun/xml/internal/stream/XMLBufferListener
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLEntityHandler
+instanceKlass com/sun/org/apache/xerces/internal/xni/parser/XMLComponent
+instanceKlass com/sun/org/apache/xerces/internal/xni/parser/XMLDocumentScanner
+instanceKlass com/sun/org/apache/xerces/internal/xni/parser/XMLDocumentSource
+instanceKlass com/sun/org/apache/xerces/internal/util/SymbolTable$Entry
+instanceKlass com/sun/org/apache/xerces/internal/util/SymbolTable
+instanceKlass java/util/HashMap$HashIterator
+instanceKlass com/sun/org/apache/xerces/internal/impl/XMLStreamReaderImpl
+instanceKlass com/sun/org/apache/xerces/internal/xni/parser/XMLInputSource
+instanceKlass javax/xml/stream/util/StreamReaderDelegate
+instanceKlass com/sun/org/apache/xerces/internal/utils/XMLSecurityPropertyManager
+instanceKlass com/sun/org/apache/xerces/internal/utils/SecuritySupport$8
+instanceKlass com/sun/org/apache/xerces/internal/utils/SecuritySupport$4
+instanceKlass com/sun/org/apache/xerces/internal/utils/SecuritySupport
+instanceKlass com/sun/org/apache/xerces/internal/utils/XMLSecurityManager
+instanceKlass com/sun/org/apache/xerces/internal/impl/PropertyManager
+instanceKlass javax/xml/stream/SecuritySupport$1
+instanceKlass java/net/URLClassLoader$3$1
+instanceKlass sun/misc/CompoundEnumeration
+instanceKlass java/net/URLClassLoader$3
+instanceKlass sun/misc/URLClassPath$1
+instanceKlass java/lang/ClassLoader$2
+instanceKlass sun/misc/URLClassPath$2
+instanceKlass java/util/LinkedHashMap$LinkedHashIterator
+instanceKlass java/util/ServiceLoader$1
+instanceKlass java/util/ServiceLoader$LazyIterator
+instanceKlass java/util/ServiceLoader
+instanceKlass javax/xml/stream/FactoryFinder$1
+instanceKlass javax/xml/stream/SecuritySupport$5
+instanceKlass javax/xml/stream/SecuritySupport$2
+instanceKlass javax/xml/stream/SecuritySupport
+instanceKlass javax/xml/stream/FactoryFinder
+instanceKlass javax/xml/stream/XMLInputFactory
+instanceKlass sun/net/DefaultProgressMeteringPolicy
+instanceKlass sun/net/ProgressMeteringPolicy
+instanceKlass sun/net/ProgressMonitor
+instanceKlass javafx/fxml/FXMLLoader$ControllerAccessor
+instanceKlass javafx/collections/MapChangeListener$Change
+instanceKlass com/sun/javafx/collections/ObservableMapWrapper
+instanceKlass com/sun/javafx/application/PlatformImpl$18
+instanceKlass javafx/application/Platform
+instanceKlass javafx/fxml/JavaFXBuilder
+instanceKlass javafx/util/Builder
+instanceKlass javafx/fxml/JavaFXBuilderFactory
+instanceKlass javafx/fxml/FXMLLoader$1
+instanceKlass java/util/regex/Pattern$TreeInfo
+instanceKlass java/util/regex/Pattern$Node
+instanceKlass java/util/regex/Pattern
+instanceKlass javax/xml/stream/XMLStreamReader
+instanceKlass javax/xml/stream/XMLStreamConstants
+instanceKlass javafx/fxml/FXMLLoader$Element
+instanceKlass javax/script/Bindings
+instanceKlass javafx/util/BuilderFactory
+instanceKlass javafx/fxml/FXMLLoader
+instanceKlass com/sun/javafx/binding/ExpressionHelperBase
+instanceKlass com/sun/javafx/collections/TrackableObservableList$1
+instanceKlass com/sun/javafx/event/EventDispatchChainImpl
+instanceKlass javafx/event/EventDispatchChain
+instanceKlass com/sun/javafx/event/BasicEventDispatcher
+instanceKlass javafx/event/EventDispatcher
+instanceKlass java/util/EventObject
+instanceKlass javafx/beans/binding/NumberBinding
+instanceKlass javafx/beans/binding/Binding
+instanceKlass javafx/stage/Window$TKBoundsConfigurator
+instanceKlass com/sun/javafx/tk/TKPulseListener
+instanceKlass javafx/stage/Stage$3
+instanceKlass com/sun/javafx/stage/StageHelper
+instanceKlass javafx/stage/Stage$2
+instanceKlass com/sun/javafx/robot/impl/FXRobotHelper
+instanceKlass javafx/collections/ListChangeBuilder
+instanceKlass javafx/collections/ListChangeListener$Change
+instanceKlass com/sun/javafx/collections/SortableList
+instanceKlass javafx/collections/FXCollections$EmptyObservableList$1
+instanceKlass java/util/ListIterator
+instanceKlass javafx/collections/ObservableIntegerArray
+instanceKlass javafx/collections/ObservableFloatArray
+instanceKlass javafx/collections/ObservableArray
+instanceKlass javafx/collections/ObservableSet
+instanceKlass javafx/collections/ObservableMap
+instanceKlass javafx/collections/FXCollections
+instanceKlass com/sun/javafx/stage/WindowHelper
+instanceKlass javafx/stage/Window$1
+instanceKlass com/sun/javafx/WeakReferenceQueue
+instanceKlass javafx/beans/binding/StringExpression
+instanceKlass javafx/beans/value/ObservableStringValue
+instanceKlass javafx/beans/value/WritableStringValue
+instanceKlass com/sun/javafx/stage/WindowPeerListener
+instanceKlass com/sun/javafx/tk/TKStageListener
+instanceKlass com/sun/javafx/stage/StagePeerListener$StageAccessor
+instanceKlass com/sun/javafx/stage/StageHelper$StageAccessor
+instanceKlass com/sun/javafx/robot/impl/FXRobotHelper$FXRobotStageAccessor
+instanceKlass javafx/collections/ObservableList
+instanceKlass javafx/beans/binding/NumberExpressionBase
+instanceKlass javafx/beans/binding/NumberExpression
+instanceKlass javafx/beans/value/ObservableDoubleValue
+instanceKlass javafx/beans/value/ObservableNumberValue
+instanceKlass javafx/beans/value/WritableDoubleValue
+instanceKlass javafx/beans/value/WritableNumberValue
+instanceKlass javafx/beans/binding/ObjectExpression
+instanceKlass javafx/beans/value/ObservableObjectValue
+instanceKlass javafx/beans/value/WritableObjectValue
+instanceKlass com/sun/javafx/stage/WindowHelper$WindowAccessor
+instanceKlass javafx/beans/binding/BooleanExpression
+instanceKlass javafx/beans/value/ObservableBooleanValue
+instanceKlass javafx/beans/value/WritableBooleanValue
+instanceKlass javafx/beans/property/Property
+instanceKlass javafx/beans/value/WritableValue
+instanceKlass javafx/beans/property/ReadOnlyProperty
+instanceKlass javafx/beans/value/ObservableValue
+instanceKlass javafx/beans/Observable
+instanceKlass com/sun/javafx/application/LauncherImpl$8
+instanceKlass com/sun/javafx/application/PlatformImpl$1
+instanceKlass java/util/ArrayList$Itr
+instanceKlass javafx/application/Application$Parameters
+instanceKlass com/sun/javafx/application/LauncherImpl$7
+instanceKlass com/sun/javafx/application/LauncherImpl$4
+instanceKlass com/sun/javafx/application/LauncherImpl$1
+instanceKlass javafx/stage/Window
+instanceKlass javafx/scene/Node
+instanceKlass javafx/css/Styleable
+instanceKlass javafx/event/EventTarget
+instanceKlass com/sun/javafx/application/PlatformImpl$6$1
+instanceKlass com/sun/scenario/animation/AbstractMasterTimer$MainLoop
+instanceKlass com/sun/scenario/DelayedRunnable
+instanceKlass com/sun/scenario/animation/shared/TimerReceiver
+instanceKlass com/sun/scenario/animation/shared/PulseReceiver
+instanceKlass com/sun/javafx/animation/TickCalculation
+instanceKlass com/sun/glass/ui/InvokeLaterDispatcher$Future
+instanceKlass java/util/concurrent/LinkedBlockingDeque$Node
+instanceKlass com/sun/javafx/application/PlatformImpl$6
+instanceKlass com/sun/javafx/application/PlatformImpl$7
+instanceKlass com/sun/javafx/application/LauncherImpl$2
+instanceKlass com/sun/scenario/Settings
+instanceKlass com/sun/scenario/animation/AbstractMasterTimer$1
+instanceKlass javafx/util/Callback
+instanceKlass com/sun/javafx/tk/quantum/QuantumToolkit$14
+instanceKlass com/sun/javafx/tk/quantum/QuantumToolkit$13
+instanceKlass com/sun/javafx/geom/BaseBounds
+instanceKlass com/sun/javafx/geom/transform/BaseTransform
+instanceKlass com/sun/prism/impl/ps/BaseShaderContext$State
+instanceKlass com/sun/javafx/geom/Vec3d
+instanceKlass com/sun/javafx/geom/transform/GeneralTransform3D
+instanceKlass com/sun/javafx/geom/transform/CanTransformVec3d
+instanceKlass com/sun/prism/impl/VertexBuffer
+instanceKlass com/sun/prism/MaskTextureGraphics
+instanceKlass com/sun/prism/ReadbackGraphics
+instanceKlass com/sun/prism/ps/ShaderGraphics
+instanceKlass com/sun/prism/impl/BaseGraphics
+instanceKlass com/sun/prism/RectShadowGraphics
+instanceKlass com/sun/prism/Graphics
+instanceKlass com/sun/prism/impl/BaseContext
+instanceKlass com/sun/prism/impl/TextureResourcePool
+instanceKlass com/sun/prism/impl/ResourcePool
+instanceKlass com/sun/prism/Presentable
+instanceKlass com/sun/prism/PhongMaterial
+instanceKlass com/sun/prism/Material
+instanceKlass com/sun/prism/ps/Shader
+instanceKlass com/sun/prism/RTTexture
+instanceKlass com/sun/prism/RenderTarget
+instanceKlass com/sun/prism/Surface
+instanceKlass com/sun/prism/Texture
+instanceKlass com/sun/prism/MeshView
+instanceKlass com/sun/prism/Mesh
+instanceKlass com/sun/prism/shape/ShapeRep
+instanceKlass java/util/concurrent/Executors$RunnableAdapter
+instanceKlass java/util/concurrent/FutureTask$WaitNode
+instanceKlass java/util/concurrent/FutureTask
+instanceKlass com/sun/javafx/tk/quantum/QuantumRenderer$3
+instanceKlass com/sun/javafx/tk/quantum/QuantumRenderer$2
+instanceKlass com/sun/glass/ui/Screen$1
+instanceKlass com/sun/glass/ui/win/WinApplication$4$1
+instanceKlass com/sun/glass/ui/win/WinApplication$4
+instanceKlass com/sun/glass/ui/win/WinApplication$3
+instanceKlass com/sun/glass/ui/Application$2
+instanceKlass java/util/concurrent/BlockingDeque
+instanceKlass com/sun/glass/ui/win/WinApplication$2
+instanceKlass com/sun/glass/ui/win/WinApplication$1
+instanceKlass com/sun/glass/ui/Window
+instanceKlass com/sun/glass/ui/View
+instanceKlass com/sun/glass/ui/Robot
+instanceKlass com/sun/glass/ui/Pixels
+instanceKlass com/sun/glass/ui/Cursor
+instanceKlass com/sun/glass/ui/Timer
+instanceKlass com/sun/glass/ui/delegate/MenuItemDelegate
+instanceKlass com/sun/glass/ui/delegate/MenuDelegate
+instanceKlass com/sun/glass/ui/delegate/MenuBarDelegate
+instanceKlass com/sun/glass/ui/delegate/ClipboardDelegate
+instanceKlass com/sun/glass/ui/accessible/AccessibleRoot
+instanceKlass com/sun/glass/ui/accessible/AccessibleBaseProvider
+instanceKlass com/sun/glass/ui/accessible/AccessibleBasePatternProvider
+instanceKlass com/sun/glass/ui/InvokeLaterDispatcher$InvokeLaterSubmitter
+instanceKlass com/sun/glass/ui/Platform$1
+instanceKlass com/sun/glass/ui/Platform
+instanceKlass com/sun/glass/ui/PlatformFactory
+instanceKlass com/sun/javafx/tk/quantum/QuantumToolkit$12
+instanceKlass com/sun/javafx/application/PlatformImpl$5
+instanceKlass com/sun/javafx/tk/quantum/PaintCollector$1
+instanceKlass com/sun/javafx/tk/quantum/PaintCollector
+instanceKlass com/sun/glass/ui/Application$1
+instanceKlass com/sun/glass/ui/Application
+instanceKlass com/sun/glass/ui/View$Capability
+instanceKlass com/sun/glass/ui/Screen
+instanceKlass com/sun/prism/impl/BaseResourceFactory
+instanceKlass com/sun/prism/ps/ShaderFactory
+instanceKlass java/net/URI$Parser
+instanceKlass java/net/URI
+instanceKlass com/sun/glass/utils/NativeLibLoader$1
+instanceKlass com/sun/glass/utils/NativeLibLoader
+instanceKlass com/sun/prism/d3d/D3DPipeline$1
+instanceKlass com/sun/prism/ResourceFactory
+instanceKlass com/sun/prism/GraphicsResource
+instanceKlass java/util/AbstractList$Itr
+instanceKlass java/util/Collections$UnmodifiableCollection$1
+instanceKlass com/sun/javafx/font/FontFactory
+instanceKlass com/sun/prism/GraphicsPipeline
+instanceKlass sun/nio/ch/Interruptible
+instanceKlass java/util/concurrent/locks/LockSupport
+instanceKlass com/sun/javafx/tk/quantum/QuantumRenderer$QuantumThreadFactory$1$1
+instanceKlass com/sun/javafx/tk/quantum/QuantumRenderer$QuantumThreadFactory$1
+instanceKlass com/sun/javafx/tk/quantum/QuantumRenderer$PipelineRunnable
+instanceKlass com/sun/javafx/tk/quantum/QuantumRenderer$QuantumThreadFactory
+instanceKlass java/util/concurrent/Executors$DefaultThreadFactory
+instanceKlass java/util/concurrent/Executors
+instanceKlass java/util/concurrent/LinkedBlockingQueue$Node
+instanceKlass java/util/concurrent/locks/AbstractQueuedSynchronizer$ConditionObject
+instanceKlass java/util/concurrent/locks/Condition
+instanceKlass java/util/concurrent/atomic/AtomicReference
+instanceKlass com/sun/javafx/tk/quantum/QuantumRenderer$1
+instanceKlass java/util/concurrent/ThreadPoolExecutor$AbortPolicy
+instanceKlass java/util/concurrent/RejectedExecutionHandler
+instanceKlass java/util/concurrent/RunnableFuture
+instanceKlass java/util/concurrent/Future
+instanceKlass java/util/concurrent/ThreadFactory
+instanceKlass java/util/concurrent/BlockingQueue
+instanceKlass java/util/concurrent/AbstractExecutorService
+instanceKlass java/util/concurrent/ExecutorService
+instanceKlass java/util/concurrent/Executor
+instanceKlass com/sun/javafx/tk/quantum/GlassSystemMenu$1
+instanceKlass javafx/scene/input/KeyCombination
+instanceKlass com/sun/glass/ui/MenuItem$Callback
+instanceKlass javafx/collections/ListChangeListener
+instanceKlass com/sun/glass/ui/Menu$EventHandler
+instanceKlass com/sun/javafx/menu/MenuItemBase
+instanceKlass javafx/beans/InvalidationListener
+instanceKlass com/sun/javafx/tk/quantum/GlassSystemMenu
+instanceKlass java/util/Collections$SynchronizedMap
+instanceKlass javafx/geometry/Bounds
+instanceKlass com/sun/javafx/Utils
+instanceKlass com/sun/prism/impl/PrismSettings$1
+instanceKlass com/sun/prism/impl/PrismSettings
+instanceKlass com/sun/javafx/tk/quantum/PerformanceTrackerHelper$1
+instanceKlass com/sun/javafx/tk/quantum/PerformanceTrackerHelper
+instanceKlass com/sun/javafx/geom/Shape
+instanceKlass com/sun/javafx/geom/PathConsumer2D
+instanceKlass com/sun/prism/BasicStroke
+instanceKlass com/sun/javafx/tk/quantum/QuantumToolkit$16
+instanceKlass com/sun/javafx/tk/quantum/QuantumToolkit$9
+instanceKlass com/sun/javafx/tk/quantum/QuantumToolkit$8
+instanceKlass com/sun/javafx/tk/quantum/QuantumToolkit$7
+instanceKlass com/sun/javafx/tk/quantum/QuantumToolkit$6
+instanceKlass com/sun/javafx/tk/quantum/QuantumToolkit$5
+instanceKlass com/sun/javafx/tk/quantum/QuantumToolkit$4
+instanceKlass com/sun/javafx/tk/quantum/QuantumToolkit$3
+instanceKlass com/sun/javafx/tk/quantum/QuantumToolkit$2
+instanceKlass com/sun/javafx/tk/quantum/QuantumToolkit$1
+instanceKlass com/sun/scenario/effect/Filterable
+instanceKlass com/sun/scenario/effect/LockableResource
+instanceKlass com/sun/javafx/tk/CompletionListener
+instanceKlass com/sun/javafx/runtime/async/AbstractAsyncOperation
+instanceKlass java/util/concurrent/Callable
+instanceKlass com/sun/javafx/runtime/async/AsyncOperation
+instanceKlass com/sun/javafx/tk/TKSystemMenu
+instanceKlass com/sun/glass/ui/Application$EventHandler
+instanceKlass com/sun/glass/ui/Screen$EventHandler
+instanceKlass com/sun/javafx/tk/ImageLoader
+instanceKlass com/sun/javafx/scene/text/TextLayoutFactory
+instanceKlass com/sun/javafx/tk/PlatformImage
+instanceKlass com/sun/javafx/tk/AppletWindow
+instanceKlass javafx/scene/shape/PathElement
+instanceKlass com/sun/scenario/animation/AbstractMasterTimer
+instanceKlass com/sun/javafx/tk/FontLoader
+instanceKlass com/sun/scenario/effect/FilterContext
+instanceKlass com/sun/javafx/tk/TKStage
+instanceKlass com/sun/javafx/tk/ScreenConfigurationAccessor
+instanceKlass com/sun/javafx/perf/PerformanceTracker
+instanceKlass sun/misc/FloatingDecimal$ASCIIToBinaryBuffer
+instanceKlass sun/misc/FloatingDecimal$PreparedASCIIToBinaryBuffer
+instanceKlass sun/misc/FloatingDecimal$ASCIIToBinaryConverter
+instanceKlass sun/misc/FloatingDecimal$BinaryToASCIIBuffer
+instanceKlass sun/misc/FloatingDecimal$ExceptionalBinaryToASCIIBuffer
+instanceKlass sun/misc/FloatingDecimal$BinaryToASCIIConverter
+instanceKlass sun/misc/FloatingDecimal
+instanceKlass com/sun/javafx/PlatformUtil$5
+instanceKlass com/sun/javafx/PlatformUtil$4
+instanceKlass com/sun/javafx/PlatformUtil$3
+instanceKlass com/sun/javafx/PlatformUtil$2
+instanceKlass com/sun/javafx/PlatformUtil$1
+instanceKlass com/sun/javafx/PlatformUtil
+instanceKlass com/sun/javafx/runtime/VersionInfo
+instanceKlass com/sun/javafx/tk/Toolkit$2
+instanceKlass com/sun/javafx/tk/Toolkit$1
+instanceKlass com/sun/javafx/tk/TKClipboard
+instanceKlass javafx/animation/Interpolatable
+instanceKlass javafx/scene/paint/Paint
+instanceKlass com/sun/javafx/tk/Toolkit
+instanceKlass com/sun/javafx/application/PlatformImpl$4
+instanceKlass com/sun/javafx/application/PlatformImpl$2
+instanceKlass java/util/concurrent/CopyOnWriteArrayList
+instanceKlass com/sun/javafx/tk/TKListener
+instanceKlass com/sun/javafx/application/PlatformImpl
+instanceKlass com/sun/javafx/application/LauncherImpl$3
+instanceKlass java/util/concurrent/locks/AbstractQueuedSynchronizer$Node
+instanceKlass java/util/concurrent/locks/AbstractOwnableSynchronizer
+instanceKlass java/util/concurrent/CountDownLatch
+instanceKlass java/net/URLClassLoader$2
+instanceKlass sun/misc/Launcher$BootClassPathHolder$1
+instanceKlass sun/misc/Launcher$BootClassPathHolder
+instanceKlass com/sun/javafx/runtime/SystemProperties$1
+instanceKlass com/sun/javafx/runtime/SystemProperties
+instanceKlass java/util/concurrent/atomic/AtomicBoolean
+instanceKlass javafx/application/Preloader$PreloaderNotification
+instanceKlass com/sun/javafx/application/PlatformImpl$FinishListener
+instanceKlass com/sun/javafx/application/LauncherImpl
+instanceKlass sun/launcher/LauncherHelper$FXHelper
+instanceKlass javafx/application/Application
+instanceKlass sun/misc/ASCIICaseInsensitiveComparator
+instanceKlass java/util/jar/Attributes$Name
+instanceKlass java/util/jar/Attributes
+instanceKlass java/util/jar/Manifest
+instanceKlass java/util/LinkedList$Node
+instanceKlass sun/util/calendar/CalendarUtils
+instanceKlass sun/util/calendar/CalendarDate
+instanceKlass java/util/TimeZone$1
+instanceKlass java/util/zip/CRC32
+instanceKlass java/util/zip/Checksum
+instanceKlass sun/util/calendar/ZoneInfoFile$ZoneOffsetTransitionRule
+instanceKlass java/io/DataInput
+instanceKlass sun/util/calendar/ZoneInfoFile$1
+instanceKlass sun/util/calendar/ZoneInfoFile
+instanceKlass java/util/TimeZone
+instanceKlass sun/util/calendar/CalendarSystem
+instanceKlass java/util/Date
+instanceKlass java/util/zip/ZipUtils
+instanceKlass java/util/zip/ZipEntry
+instanceKlass sun/misc/JarIndex
+instanceKlass java/util/zip/ZipCoder
+instanceKlass java/util/Deque
+instanceKlass java/util/Queue
+instanceKlass java/nio/charset/StandardCharsets
+instanceKlass java/util/jar/JavaUtilJarAccessImpl
+instanceKlass sun/misc/JavaUtilJarAccess
+instanceKlass sun/misc/FileURLMapper
+instanceKlass sun/misc/URLClassPath$JarLoader$1
+instanceKlass java/io/FilePermission$1
+instanceKlass sun/net/www/MessageHeader
+instanceKlass java/net/URLConnection
+instanceKlass java/security/PermissionCollection
+instanceKlass sun/nio/ch/DirectBuffer
+instanceKlass sun/misc/PerfCounter$CoreCounters
+instanceKlass sun/misc/Perf
+instanceKlass sun/misc/Perf$GetPerfAction
+instanceKlass sun/misc/PerfCounter
+instanceKlass sun/nio/ByteBuffered
+instanceKlass java/lang/Package
+instanceKlass sun/misc/Resource
+instanceKlass sun/nio/cs/ThreadLocalCoders$Cache
+instanceKlass sun/nio/cs/ThreadLocalCoders
+instanceKlass java/util/zip/ZipFile$1
+instanceKlass sun/misc/JavaUtilZipFileAccess
+instanceKlass java/util/zip/ZipFile
+instanceKlass java/util/zip/ZipConstants
+instanceKlass sun/misc/URLClassPath$Loader
+instanceKlass sun/misc/URLClassPath$3
+instanceKlass sun/net/util/URLUtil
+instanceKlass java/net/URLClassLoader$1
+instanceKlass java/lang/StringCoding$StringDecoder
+instanceKlass java/lang/ThreadLocal$ThreadLocalMap
+instanceKlass java/lang/StringCoding
+instanceKlass sun/misc/PostVMInitHook
+instanceKlass java/lang/Void
+instanceKlass java/lang/invoke/Invokers
+instanceKlass java/lang/invoke/MethodTypeForm
+instanceKlass java/lang/invoke/MethodHandleStatics$1
+instanceKlass java/lang/invoke/MethodHandleStatics
+instanceKlass java/lang/invoke/MethodType$ConcurrentWeakInternSet
+instanceKlass java/lang/invoke/LambdaForm$NamedFunction
+instanceKlass java/lang/invoke/MemberName$Factory
+instanceKlass java/lang/invoke/MethodHandleImpl
+instanceKlass java/lang/SystemClassLoaderAction
+instanceKlass sun/misc/Launcher$AppClassLoader$1
+instanceKlass sun/misc/URLClassPath
+instanceKlass java/security/Principal
+instanceKlass java/security/ProtectionDomain$Key
+instanceKlass java/security/CodeSource
+instanceKlass java/security/ProtectionDomain$3
+instanceKlass sun/misc/JavaSecurityProtectionDomainAccess
+instanceKlass java/security/ProtectionDomain$1
+instanceKlass sun/misc/JavaSecurityAccess
+instanceKlass java/net/URLStreamHandler
+instanceKlass java/net/Parts
+instanceKlass java/net/URL
+instanceKlass java/util/BitSet
+instanceKlass sun/net/www/ParseUtil
+instanceKlass java/io/FileInputStream$1
+instanceKlass java/lang/CharacterData
+instanceKlass sun/util/locale/LocaleUtils
+instanceKlass java/util/Locale$LocaleKey
+instanceKlass sun/util/locale/BaseLocale$Key
+instanceKlass sun/util/locale/BaseLocale
+instanceKlass java/util/concurrent/ConcurrentHashMap$CollectionView
+instanceKlass java/util/concurrent/ConcurrentHashMap$CounterCell
+instanceKlass java/util/concurrent/ConcurrentHashMap$Node
+instanceKlass java/util/concurrent/locks/ReentrantLock
+instanceKlass java/util/concurrent/locks/Lock
+instanceKlass java/util/concurrent/ConcurrentMap
+instanceKlass sun/util/locale/LocaleObjectCache
+instanceKlass java/util/Locale
+instanceKlass java/lang/reflect/Array
+instanceKlass java/nio/charset/CoderResult$Cache
+instanceKlass java/nio/charset/CoderResult
+instanceKlass java/nio/charset/CharsetDecoder
+instanceKlass sun/nio/cs/ArrayDecoder
+instanceKlass java/io/Reader
+instanceKlass java/lang/Readable
+instanceKlass sun/misc/MetaIndex
+instanceKlass sun/misc/Launcher$ExtClassLoader$1
+instanceKlass java/util/StringTokenizer
+instanceKlass java/net/URLClassLoader$7
+instanceKlass sun/misc/JavaNetAccess
+instanceKlass java/lang/ClassLoader$ParallelLoaders
+instanceKlass sun/security/util/Debug
+instanceKlass sun/misc/Launcher$Factory
+instanceKlass java/net/URLStreamHandlerFactory
+instanceKlass sun/misc/Launcher
+instanceKlass java/lang/Compiler$1
+instanceKlass java/lang/Compiler
+instanceKlass java/lang/System$2
+instanceKlass sun/misc/JavaLangAccess
+instanceKlass sun/io/Win32ErrorMode
+instanceKlass sun/misc/OSEnvironment
+instanceKlass java/lang/Integer$IntegerCache
+instanceKlass sun/misc/NativeSignalHandler
+instanceKlass sun/misc/Signal
+instanceKlass java/lang/Terminator$1
+instanceKlass sun/misc/SignalHandler
+instanceKlass java/lang/Terminator
+instanceKlass java/io/ExpiringCache$Entry
+instanceKlass java/lang/ClassLoader$3
+instanceKlass java/lang/ClassLoader$NativeLibrary
+instanceKlass java/nio/file/Path
+instanceKlass java/nio/file/Watchable
+instanceKlass java/lang/Enum
+instanceKlass java/io/ExpiringCache
+instanceKlass java/io/FileSystem
+instanceKlass java/io/DefaultFileSystem
+instanceKlass java/io/File
+instanceKlass java/nio/Bits$1
+instanceKlass sun/misc/JavaNioAccess
+instanceKlass java/nio/ByteOrder
+instanceKlass java/nio/Bits
+instanceKlass java/nio/charset/CodingErrorAction
+instanceKlass java/nio/charset/CharsetEncoder
+instanceKlass sun/nio/cs/ArrayEncoder
+instanceKlass sun/reflect/ReflectionFactory$1
+instanceKlass java/lang/Class$1
+instanceKlass sun/nio/cs/SingleByte
+instanceKlass sun/nio/cs/HistoricallyNamedCharset
+instanceKlass java/util/Arrays
+instanceKlass sun/security/action/GetPropertyAction
+instanceKlass java/lang/ThreadLocal
+instanceKlass java/nio/charset/spi/CharsetProvider
+instanceKlass java/nio/charset/Charset
+instanceKlass java/io/Writer
+instanceKlass sun/reflect/misc/ReflectUtil
+instanceKlass java/lang/reflect/ReflectAccess
+instanceKlass sun/reflect/LangReflectAccess
+instanceKlass java/lang/reflect/Modifier
+instanceKlass sun/reflect/annotation/AnnotationType
+instanceKlass java/lang/Class$AnnotationData
+instanceKlass sun/reflect/generics/repository/AbstractRepository
+instanceKlass java/lang/Class$Atomic
+instanceKlass java/lang/Class$ReflectionData
+instanceKlass java/lang/Class$3
+instanceKlass java/util/concurrent/atomic/AtomicReferenceFieldUpdater$AtomicReferenceFieldUpdaterImpl$1
+instanceKlass java/security/PrivilegedExceptionAction
+instanceKlass java/util/concurrent/atomic/AtomicReferenceFieldUpdater
+instanceKlass java/io/OutputStream
+instanceKlass java/io/Flushable
+instanceKlass java/util/HashMap$Node
+instanceKlass sun/reflect/Reflection
+instanceKlass java/util/Collections$UnmodifiableCollection
+instanceKlass sun/misc/SharedSecrets
+instanceKlass java/io/FileDescriptor$1
+instanceKlass sun/misc/JavaIOFileDescriptorAccess
+instanceKlass java/io/FileDescriptor
+instanceKlass java/io/InputStream
+instanceKlass java/io/Closeable
+instanceKlass java/lang/AutoCloseable
+instanceKlass sun/misc/Version
+instanceKlass java/lang/Runtime
+instanceKlass java/util/Hashtable$Enumerator
+instanceKlass java/util/Iterator
+instanceKlass java/util/Enumeration
+instanceKlass java/util/Objects
+instanceKlass java/util/Collections$SynchronizedCollection
+instanceKlass java/util/AbstractMap
+instanceKlass java/util/Collections
+instanceKlass java/util/Set
+instanceKlass java/lang/Math
+instanceKlass java/util/Hashtable$Entry
+instanceKlass java/util/Map$Entry
+instanceKlass sun/misc/VM
+instanceKlass java/lang/ref/ReferenceQueue$Lock
+instanceKlass java/lang/ref/ReferenceQueue
+instanceKlass java/lang/ref/Reference$Lock
+instanceKlass sun/reflect/ReflectionFactory
+instanceKlass java/util/AbstractCollection
+instanceKlass java/util/RandomAccess
+instanceKlass java/util/List
+instanceKlass java/util/Collection
+instanceKlass java/lang/Iterable
+instanceKlass java/security/cert/Certificate
+instanceKlass sun/reflect/ReflectionFactory$GetReflectionFactoryAction
+instanceKlass java/security/PrivilegedAction
+instanceKlass java/security/AccessController
+instanceKlass java/security/Permission
+instanceKlass java/security/Guard
+instanceKlass java/lang/String$CaseInsensitiveComparator
+instanceKlass java/util/Comparator
+instanceKlass java/io/ObjectStreamField
+instanceKlass java/lang/Number
+instanceKlass java/lang/Character
+instanceKlass java/lang/Boolean
+instanceKlass java/nio/Buffer
+instanceKlass java/lang/StackTraceElement
+instanceKlass sun/misc/Unsafe
+instanceKlass java/lang/AbstractStringBuilder
+instanceKlass java/lang/Appendable
+instanceKlass java/lang/invoke/CallSite
+instanceKlass java/lang/invoke/MethodType
+instanceKlass java/lang/invoke/LambdaForm
+instanceKlass java/lang/invoke/MethodHandleNatives
+instanceKlass java/lang/invoke/MemberName
+instanceKlass java/lang/invoke/MethodHandle
+instanceKlass sun/reflect/CallerSensitive
+instanceKlass java/lang/annotation/Annotation
+instanceKlass sun/reflect/FieldAccessor
+instanceKlass sun/reflect/ConstantPool
+instanceKlass sun/reflect/ConstructorAccessor
+instanceKlass sun/reflect/MethodAccessor
+instanceKlass sun/reflect/MagicAccessorImpl
+instanceKlass java/lang/reflect/Parameter
+instanceKlass java/lang/reflect/Member
+instanceKlass java/lang/reflect/AccessibleObject
+instanceKlass java/util/Dictionary
+instanceKlass java/util/Map
+instanceKlass java/lang/ThreadGroup
+instanceKlass java/lang/Thread$UncaughtExceptionHandler
+instanceKlass java/lang/Thread
+instanceKlass java/lang/Runnable
+instanceKlass java/lang/ref/Reference
+instanceKlass java/security/AccessControlContext
+instanceKlass java/security/ProtectionDomain
+instanceKlass java/lang/SecurityManager
+instanceKlass java/lang/Throwable
+instanceKlass java/lang/System
+instanceKlass java/lang/ClassLoader
+instanceKlass java/lang/Cloneable
+instanceKlass java/lang/Class
+instanceKlass java/lang/reflect/Type
+instanceKlass java/lang/reflect/GenericDeclaration
+instanceKlass java/lang/reflect/AnnotatedElement
+instanceKlass java/lang/String
+instanceKlass java/lang/CharSequence
+instanceKlass java/lang/Comparable
+instanceKlass java/io/Serializable
+ciInstanceKlass java/lang/Object 1 1 79 3 3 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 100 100 7 7 100 100 1 1 1 12 12 12 12 12 12 12 12 12 12 10 10 10 10 10 10 10 10 10 10 1
+ciInstanceKlass java/io/Serializable 1 0 7 1 1 1 100 100 1
+ciInstanceKlass java/lang/String 1 1 538 3 3 3 3 8 8 8 8 8 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 5 0 100 100 100 100 7 7 100 100 100 7 7 100 100 100 100 100 100 100 100 100 7 100 7 7 100 7 100 100 7 100 7 100 100 7 7 7 100 100 7 7 100 100 100 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 11 11 11 11 11 1 1
+staticfield java/lang/String serialPersistentFields [Ljava/io/ObjectStreamField; 0 [Ljava/io/ObjectStreamField;
+staticfield java/lang/String CASE_INSENSITIVE_ORDER Ljava/util/Comparator; java/lang/String$CaseInsensitiveComparator
+ciInstanceKlass java/lang/Class 1 1 1166 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 7 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 3 5 0 8 8 8 8 7 7 7 100 100 100 7 7 100 7 100 7 7 7 7 100 7 7 100 7 100 100 100 100 100 100 100 100 7 100 7 7 7 100 100 100 7 7 7 100 100 7 7 100 100 7 7 100 100 100 7 7 100 100 100 7 100 100 100 100 7 100 7 7 100 7 7 7 7 100 7 7 7 7 7 100 7 100 7 7 100 100 7 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 1 1 1 1 1 1 1 1
+staticfield java/lang/Class serialPersistentFields [Ljava/io/ObjectStreamField; 0 [Ljava/io/ObjectStreamField;
+ciInstanceKlass java/lang/Cloneable 1 0 7 1 1 1 100 100 1
+instanceKlass java/security/SecureClassLoader
+instanceKlass sun/reflect/DelegatingClassLoader
+ciInstanceKlass java/lang/ClassLoader 1 1 842 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 100 7 7 7 100 100 100 100 7 100 100 7 7 7 7 100 7 100 100 100 100 7 7 100 100 7 100 7 7 100 100 100 100 7 100 100 7 7 100 7 7 100 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 11 11 11 1 1
+staticfield java/lang/ClassLoader nocerts [Ljava/security/cert/Certificate; 0 [Ljava/security/cert/Certificate;
+ciInstanceKlass java/lang/System 1 1 369 8 8 8 8 8 8 8 8 8 8 8 8 8 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7 7 7 7 7 100 7 100 100 100 100 100 100 100 7 100 100 7 100 100 7 7 7 7 100 100 100 7 100 100 7 7 7 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 1
+staticfield java/lang/System in Ljava/io/InputStream; java/io/BufferedInputStream
+staticfield java/lang/System out Ljava/io/PrintStream; java/io/PrintStream
+staticfield java/lang/System err Ljava/io/PrintStream; java/io/PrintStream
+instanceKlass java/lang/Exception
+instanceKlass java/lang/Error
+ciInstanceKlass java/lang/Throwable 1 1 327 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 5 0 7 100 100 100 100 100 100 7 100 100 100 100 7 7 100 100 100 100 100 100 100 100 100 7 7 100 100 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 11 11 11 11 11 1 1 1 1 1
+staticfield java/lang/Throwable UNASSIGNED_STACK [Ljava/lang/StackTraceElement; 0 [Ljava/lang/StackTraceElement;
+staticfield java/lang/Throwable SUPPRESSED_SENTINEL Ljava/util/List; java/util/Collections$UnmodifiableRandomAccessList
+staticfield java/lang/Throwable EMPTY_THROWABLE_ARRAY [Ljava/lang/Throwable; 0 [Ljava/lang/Throwable;
+staticfield java/lang/Throwable $assertionsDisabled Z 1
+instanceKlass java/lang/AssertionError
+instanceKlass java/lang/VirtualMachineError
+instanceKlass java/lang/LinkageError
+instanceKlass java/lang/ThreadDeath
+ciInstanceKlass java/lang/Error 1 1 30 1 1 1 1 1 1 1 1 1 1 1 1 5 0 100 7 1 1 12 12 12 12 12 10 10 10 10 10 1
+ciInstanceKlass java/lang/ThreadDeath 0 0 18 1 1 1 1 1 1 1 1 1 1 5 0 100 100 12 10 1
+instanceKlass javafx/scene/transform/NonInvertibleTransformException
+instanceKlass java/lang/CloneNotSupportedException
+instanceKlass java/net/URISyntaxException
+instanceKlass javax/xml/stream/XMLStreamException
+instanceKlass com/sun/javafx/geom/transform/NoninvertibleTransformException
+instanceKlass java/util/concurrent/ExecutionException
+instanceKlass java/io/IOException
+instanceKlass java/lang/InterruptedException
+instanceKlass java/security/PrivilegedActionException
+instanceKlass java/lang/ReflectiveOperationException
+instanceKlass java/lang/RuntimeException
+ciInstanceKlass java/lang/Exception 1 1 30 1 1 1 1 1 1 1 1 1 1 1 1 5 0 100 7 1 1 12 12 12 12 12 10 10 10 10 10 1
+instanceKlass com/sun/javafx/geom/IllegalPathStateException
+instanceKlass java/lang/reflect/UndeclaredThrowableException
+instanceKlass com/sun/javafx/fxml/PropertyNotFoundException
+instanceKlass java/util/NoSuchElementException
+instanceKlass java/lang/IndexOutOfBoundsException
+instanceKlass com/sun/javafx/geom/transform/SingularMatrixException
+instanceKlass java/lang/UnsupportedOperationException
+instanceKlass java/lang/SecurityException
+instanceKlass java/lang/IllegalStateException
+instanceKlass java/lang/IllegalArgumentException
+instanceKlass java/lang/ArithmeticException
+instanceKlass java/lang/NullPointerException
+instanceKlass java/lang/IllegalMonitorStateException
+instanceKlass java/lang/ArrayStoreException
+instanceKlass java/lang/ClassCastException
+ciInstanceKlass java/lang/RuntimeException 1 1 30 1 1 1 1 1 1 1 1 1 1 1 1 5 0 7 100 1 1 12 12 12 12 12 10 10 10 10 10 1
+ciInstanceKlass java/lang/SecurityManager 0 0 375 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 1 1
+ciInstanceKlass java/security/ProtectionDomain 1 1 267 8 8 8 8 8 8 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 100 7 100 100 100 100 100 100 100 100 100 7 7 100 7 7 7 100 7 7 100 100 100 7 7 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 11 11 11 11 1
+staticfield java/security/ProtectionDomain debug Lsun/security/util/Debug; null
+ciInstanceKlass java/security/AccessControlContext 1 1 302 8 8 8 8 8 8 8 8 8 8 8 8 8 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 100 100 7 100 100 7 100 100 7 100 100 7 100 100 100 100 7 100 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 11 11 11 1
+instanceKlass java/lang/NoSuchFieldException
+instanceKlass java/lang/InstantiationException
+instanceKlass java/lang/reflect/InvocationTargetException
+instanceKlass java/lang/NoSuchMethodException
+instanceKlass java/lang/IllegalAccessException
+instanceKlass java/lang/ClassNotFoundException
+ciInstanceKlass java/lang/ReflectiveOperationException 1 1 27 1 1 1 1 1 1 1 1 1 1 1 1 5 0 7 100 1 12 12 12 12 10 10 10 10 1
+ciInstanceKlass java/lang/ClassNotFoundException 1 1 32 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 5 0 100 7 100 1 1 1 12 12 12 9 10 10 1
+instanceKlass java/lang/UnsatisfiedLinkError
+instanceKlass java/lang/IncompatibleClassChangeError
+instanceKlass java/lang/BootstrapMethodError
+instanceKlass java/lang/NoClassDefFoundError
+ciInstanceKlass java/lang/LinkageError 1 1 24 1 1 1 1 1 1 1 1 1 1 1 5 0 7 100 1 12 12 12 10 10 10 1
+ciInstanceKlass java/lang/NoClassDefFoundError 0 0 21 1 1 1 1 1 1 1 1 1 1 1 5 0 100 100 12 12 10 10 1
+ciInstanceKlass java/lang/ClassCastException 1 1 21 1 1 1 1 1 1 1 1 1 1 1 5 0 100 100 12 12 10 10 1
+ciInstanceKlass java/lang/ArrayStoreException 1 1 21 1 1 1 1 1 1 1 1 1 1 1 5 0 100 100 12 12 10 10 1
+instanceKlass java/lang/InternalError
+instanceKlass java/lang/StackOverflowError
+instanceKlass java/lang/OutOfMemoryError
+ciInstanceKlass java/lang/VirtualMachineError 1 1 27 1 1 1 1 1 1 1 1 1 1 1 1 5 0 100 100 1 12 12 12 12 10 10 10 10 1
+ciInstanceKlass java/lang/OutOfMemoryError 1 1 21 1 1 1 1 1 1 1 1 1 1 1 5 0 100 100 12 12 10 10 1
+ciInstanceKlass java/lang/StackOverflowError 1 1 21 1 1 1 1 1 1 1 1 1 1 1 5 0 100 100 12 12 10 10 1
+ciInstanceKlass java/lang/IllegalMonitorStateException 1 1 21 1 1 1 1 1 1 1 1 1 1 1 5 0 100 100 12 12 10 10 1
+instanceKlass java/lang/ref/PhantomReference
+instanceKlass java/lang/ref/FinalReference
+instanceKlass java/lang/ref/WeakReference
+instanceKlass java/lang/ref/SoftReference
+ciInstanceKlass java/lang/ref/Reference 1 1 117 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7 7 7 7 100 7 7 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 1 1 1
+instanceKlass java/util/ResourceBundle$BundleReference
+instanceKlass sun/util/locale/LocaleObjectCache$CacheEntry
+ciInstanceKlass java/lang/ref/SoftReference 1 1 35 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 7 7 1 1 1 1 12 12 12 12 12 9 9 10 10 10 1
+instanceKlass java/util/ResourceBundle$LoaderReference
+instanceKlass java/lang/reflect/WeakCache$CacheValue
+instanceKlass java/lang/reflect/Proxy$Key1
+instanceKlass java/lang/reflect/WeakCache$CacheKey
+instanceKlass com/sun/javafx/WeakReferenceQueue$ListEntry
+instanceKlass java/lang/ThreadLocal$ThreadLocalMap$Entry
+instanceKlass java/lang/invoke/MethodType$ConcurrentWeakInternSet$WeakEntry
+instanceKlass java/util/WeakHashMap$Entry
+ciInstanceKlass java/lang/ref/WeakReference 1 1 20 1 1 1 1 1 1 1 1 7 100 1 1 1 1 12 12 10 10 1
+instanceKlass java/lang/ref/Finalizer
+ciInstanceKlass java/lang/ref/FinalReference 1 1 16 1 1 1 1 1 1 1 100 7 1 1 1 12 10 1
+instanceKlass sun/misc/Cleaner
+ciInstanceKlass java/lang/ref/PhantomReference 0 0 19 1 1 1 1 1 1 1 1 1 1 100 100 1 1 1 12 10 1
+ciInstanceKlass java/lang/ref/Finalizer 1 1 148 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7 7 7 7 100 7 7 100 100 100 7 7 100 7 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 1 1
+staticfield java/lang/ref/Finalizer lock Ljava/lang/Object; java/lang/Object
+instanceKlass com/sun/glass/ui/InvokeLaterDispatcher
+instanceKlass com/sun/javafx/tk/quantum/PerformanceTrackerHelper$1$1
+instanceKlass com/sun/javafx/tk/quantum/QuantumToolkit$10
+instanceKlass java/lang/ref/Finalizer$FinalizerThread
+instanceKlass java/lang/ref/Reference$ReferenceHandler
+ciInstanceKlass java/lang/Thread 1 1 546 3 3 8 8 8 8 8 8 8 8 8 8 8 8 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 3 100 100 100 100 100 100 7 100 100 100 100 100 7 7 7 100 7 7 7 7 100 100 100 100 100 100 7 100 100 100 100 100 100 100 7 100 100 100 100 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 11 11 11 11 1 1 1 1 1
+staticfield java/lang/Thread EMPTY_STACK_TRACE [Ljava/lang/StackTraceElement; 0 [Ljava/lang/StackTraceElement;
+staticfield java/lang/Thread SUBCLASS_IMPLEMENTATION_PERMISSION Ljava/lang/RuntimePermission; java/lang/RuntimePermission
+ciInstanceKlass java/lang/ThreadGroup 1 1 268 8 8 8 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7 100 100 100 100 100 7 100 100 7 7 100 100 7 100 7 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 1 1
+instanceKlass java/util/Hashtable
+ciInstanceKlass java/util/Dictionary 1 1 31 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7 100 1 1 1 1 1 1 12 10 1
+instanceKlass java/util/Properties
+ciInstanceKlass java/util/Hashtable 1 1 397 3 3 4 4 8 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 3 5 0 100 100 100 100 100 100 100 100 100 100 7 100 100 7 100 7 100 100 100 7 100 7 7 100 7 7 7 100 100 7 7 7 100 7 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 11 11 11 11 11 11 11 11 11 1 1 1 1
+ciInstanceKlass java/util/Properties 1 1 263 3 8 8 8 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 5 0 100 100 100 100 100 100 100 100 100 100 100 7 100 100 100 100 100 7 100 100 7 7 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 1 1 1
+staticfield java/util/Properties hexDigit [C 16
+instanceKlass java/lang/reflect/Executable
+instanceKlass java/lang/reflect/Field
+ciInstanceKlass java/lang/reflect/AccessibleObject 1 1 144 8 8 8 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 100 7 100 100 7 7 100 7 100 7 7 100 7 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 1 1
+staticfield java/lang/reflect/AccessibleObject ACCESS_PERMISSION Ljava/security/Permission; java/lang/reflect/ReflectPermission
+staticfield java/lang/reflect/AccessibleObject reflectionFactory Lsun/reflect/ReflectionFactory; sun/reflect/ReflectionFactory
+ciInstanceKlass java/lang/reflect/Field 1 1 357 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7 100 100 100 100 7 7 7 100 100 100 7 7 7 7 7 100 7 7 100 100 100 100 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 1 1
+ciInstanceKlass java/lang/reflect/Parameter 1 1 210 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 7 100 100 100 100 100 100 7 100 100 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 11 1
+instanceKlass java/lang/reflect/Constructor
+instanceKlass java/lang/reflect/Method
+ciInstanceKlass java/lang/reflect/Executable 1 1 362 3 8 8 8 8 8 8 8 8 8 8 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 7 100 100 7 100 7 100 100 100 100 7 7 7 7 100 100 100 100 7 100 100 7 7 7 7 7 100 100 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 1 1
+ciInstanceKlass java/lang/reflect/Method 1 1 341 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7 100 100 100 100 100 100 100 100 7 100 7 100 100 100 100 100 100 7 7 7 100 100 100 7 7 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 1
+ciInstanceKlass java/lang/reflect/Constructor 1 1 326 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7 100 7 100 100 100 100 100 100 7 7 100 100 100 100 100 7 7 7 100 100 100 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 1 1
+instanceKlass sun/reflect/FieldAccessorImpl
+instanceKlass sun/reflect/ConstructorAccessorImpl
+instanceKlass sun/reflect/MethodAccessorImpl
+ciInstanceKlass sun/reflect/MagicAccessorImpl 1 1 13 1 1 1 1 1 1 1 7 100 12 10 1
+instanceKlass sun/reflect/GeneratedMethodAccessor1
+instanceKlass sun/reflect/DelegatingMethodAccessorImpl
+instanceKlass sun/reflect/NativeMethodAccessorImpl
+ciInstanceKlass sun/reflect/MethodAccessorImpl 1 1 22 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 7 100 100 12 10 1
+instanceKlass sun/reflect/BootstrapConstructorAccessorImpl
+instanceKlass sun/reflect/GeneratedConstructorAccessor1
+instanceKlass sun/reflect/DelegatingConstructorAccessorImpl
+instanceKlass sun/reflect/NativeConstructorAccessorImpl
+ciInstanceKlass sun/reflect/ConstructorAccessorImpl 1 1 24 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 100 100 100 7 12 10 1
+ciInstanceKlass sun/reflect/DelegatingClassLoader 1 1 13 1 1 1 1 1 1 1 7 100 1 12 10
+ciInstanceKlass sun/reflect/ConstantPool 1 1 106 8 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 7 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 1
+instanceKlass sun/reflect/UnsafeFieldAccessorImpl
+ciInstanceKlass sun/reflect/FieldAccessorImpl 1 1 56 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 100 100 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 10 1
+instanceKlass sun/reflect/UnsafeObjectFieldAccessorImpl
+instanceKlass sun/reflect/UnsafeStaticFieldAccessorImpl
+ciInstanceKlass sun/reflect/UnsafeFieldAccessorImpl 1 1 229 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 100 7 100 100 100 100 100 100 7 100 100 100 7 7 7 7 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 1
+staticfield sun/reflect/UnsafeFieldAccessorImpl unsafe Lsun/misc/Unsafe; sun/misc/Unsafe
+instanceKlass sun/reflect/UnsafeQualifiedStaticFieldAccessorImpl
+ciInstanceKlass sun/reflect/UnsafeStaticFieldAccessorImpl 1 1 38 8 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7 7 7 7 1 1 1 1 12 12 12 12 12 9 9 10 10 10 1
+ciInstanceKlass sun/reflect/CallerSensitive 0 0 17 1 1 1 1 1 1 1 1 100 100 100 1 1 1 1 1
+instanceKlass java/lang/invoke/DirectMethodHandle
+ciInstanceKlass java/lang/invoke/MethodHandle 1 1 492 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 100 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 7 100 7 100 100 100 100 100 100 7 100 100 100 100 7 100 100 7 7 100 100 100 100 100 100 100 100 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 1 1 1
+staticfield java/lang/invoke/MethodHandle NF_reinvokerTarget Ljava/lang/invoke/LambdaForm$NamedFunction; java/lang/invoke/LambdaForm$NamedFunction
+staticfield java/lang/invoke/MethodHandle FORM_OFFSET J 16
+staticfield java/lang/invoke/MethodHandle $assertionsDisabled Z 1
+ciInstanceKlass java/lang/invoke/DirectMethodHandle 0 0 689 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 100 100 100 100 100 100 100 100 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 1 1 1 1 1 1 1 1 1
+ciInstanceKlass java/lang/invoke/MemberName 1 1 644 3 3 3 3 3 3 3 3 3 3 3 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 7 100 7 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 3 3 3 3 3 3 100 100 100 100 100 100 7 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 7 100 100 100 100 100 100 100 100 7 100 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 1 1 1 1
+staticfield java/lang/invoke/MemberName $assertionsDisabled Z 1
+ciInstanceKlass java/lang/invoke/MethodHandleNatives 1 1 399 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 100 100 100 7 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 100 100 7 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 7 100 100 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 1 1 1
+staticfield java/lang/invoke/MethodHandleNatives COUNT_GWT Z 1
+staticfield java/lang/invoke/MethodHandleNatives $assertionsDisabled Z 1
+ciInstanceKlass java/lang/invoke/LambdaForm 0 0 865 4 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 100 100 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 3 3 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 11 11 1 1 1 1 1 1
+ciInstanceKlass java/lang/invoke/MethodType 1 1 536 8 8 8 8 8 8 8 8 8 8 8 100 7 100 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 3 5 0 100 100 100 100 7 100 100 7 100 7 100 100 100 100 100 7 100 100 7 100 7 100 7 7 7 100 100 100 7 100 100 100 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 1 1
+staticfield java/lang/invoke/MethodType internTable Ljava/lang/invoke/MethodType$ConcurrentWeakInternSet; java/lang/invoke/MethodType$ConcurrentWeakInternSet
+staticfield java/lang/invoke/MethodType NO_PTYPES [Ljava/lang/Class; 0 [Ljava/lang/Class;
+staticfield java/lang/invoke/MethodType objectOnlyTypes [Ljava/lang/invoke/MethodType; 20 [Ljava/lang/invoke/MethodType;
+staticfield java/lang/invoke/MethodType serialPersistentFields [Ljava/io/ObjectStreamField; 0 [Ljava/io/ObjectStreamField;
+staticfield java/lang/invoke/MethodType rtypeOffset J 12
+staticfield java/lang/invoke/MethodType ptypesOffset J 16
+staticfield java/lang/invoke/MethodType $assertionsDisabled Z 1
+ciInstanceKlass java/lang/BootstrapMethodError 0 0 38 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 5 0 100 100 100 100 1 1 12 12 12 12 12 10 10 10 10 10 1
+instanceKlass java/lang/invoke/VolatileCallSite
+instanceKlass java/lang/invoke/MutableCallSite
+instanceKlass java/lang/invoke/ConstantCallSite
+ciInstanceKlass java/lang/invoke/CallSite 0 0 283 8 8 8 8 8 8 8 8 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 1 1
+ciInstanceKlass java/lang/invoke/ConstantCallSite 0 0 42 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 100 100 100 1 1 12 12 12 12 12 12 9 9 10 10 10 10 10 1
+ciInstanceKlass java/lang/invoke/MutableCallSite 0 0 57 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 100 100 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 9 9 10 10 10 10 10 10 10 10 1
+ciInstanceKlass java/lang/invoke/VolatileCallSite 0 0 33 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 1 1 1 12 12 12 12 12 12 10 10 10 10 10 10 1
+instanceKlass java/lang/StringBuilder
+instanceKlass java/lang/StringBuffer
+ciInstanceKlass java/lang/AbstractStringBuilder 1 1 312 3 3 8 8 8 8 8 8 8 8 8 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 5 0 100 7 100 100 100 100 100 7 7 7 100 7 100 100 100 7 7 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 1
+ciInstanceKlass java/lang/StringBuffer 1 1 372 8 8 8 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 5 0 100 100 100 100 100 7 100 7 7 100 100 7 7 7 100 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 1 1 1
+staticfield java/lang/StringBuffer serialPersistentFields [Ljava/io/ObjectStreamField; 3 [Ljava/io/ObjectStreamField;
+ciInstanceKlass java/lang/StringBuilder 1 1 326 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 5 0 100 100 100 100 100 7 100 100 7 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 1
+ciInstanceKlass sun/misc/Unsafe 1 1 389 8 8 7 7 7 7 7 7 7 7 7 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 100 7 100 100 7 100 7 100 100 7 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 1
+staticfield sun/misc/Unsafe theUnsafe Lsun/misc/Unsafe; sun/misc/Unsafe
+staticfield sun/misc/Unsafe ARRAY_BOOLEAN_BASE_OFFSET I 16
+staticfield sun/misc/Unsafe ARRAY_BYTE_BASE_OFFSET I 16
+staticfield sun/misc/Unsafe ARRAY_SHORT_BASE_OFFSET I 16
+staticfield sun/misc/Unsafe ARRAY_CHAR_BASE_OFFSET I 16
+staticfield sun/misc/Unsafe ARRAY_INT_BASE_OFFSET I 16
+staticfield sun/misc/Unsafe ARRAY_LONG_BASE_OFFSET I 16
+staticfield sun/misc/Unsafe ARRAY_FLOAT_BASE_OFFSET I 16
+staticfield sun/misc/Unsafe ARRAY_DOUBLE_BASE_OFFSET I 16
+staticfield sun/misc/Unsafe ARRAY_OBJECT_BASE_OFFSET I 16
+staticfield sun/misc/Unsafe ARRAY_BOOLEAN_INDEX_SCALE I 1
+staticfield sun/misc/Unsafe ARRAY_BYTE_INDEX_SCALE I 1
+staticfield sun/misc/Unsafe ARRAY_SHORT_INDEX_SCALE I 2
+staticfield sun/misc/Unsafe ARRAY_CHAR_INDEX_SCALE I 2
+staticfield sun/misc/Unsafe ARRAY_INT_INDEX_SCALE I 4
+staticfield sun/misc/Unsafe ARRAY_LONG_INDEX_SCALE I 8
+staticfield sun/misc/Unsafe ARRAY_FLOAT_INDEX_SCALE I 4
+staticfield sun/misc/Unsafe ARRAY_DOUBLE_INDEX_SCALE I 8
+staticfield sun/misc/Unsafe ARRAY_OBJECT_INDEX_SCALE I 4
+staticfield sun/misc/Unsafe ADDRESS_SIZE I 8
+ciInstanceKlass java/lang/StackTraceElement 1 1 98 8 8 8 8 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 5 0 100 100 7 100 100 100 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 1
+instanceKlass java/nio/IntBuffer
+instanceKlass java/nio/LongBuffer
+instanceKlass java/nio/CharBuffer
+instanceKlass java/nio/ByteBuffer
+ciInstanceKlass java/nio/Buffer 1 1 103 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 100 100 7 100 7 100 100 100 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 1
+ciInstanceKlass java/lang/Boolean 1 1 110 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 5 0 100 7 7 100 100 100 7 100 7 7 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 10 10 10 10 10 10 10 10 10 10 1
+staticfield java/lang/Boolean TRUE Ljava/lang/Boolean; java/lang/Boolean
+staticfield java/lang/Boolean FALSE Ljava/lang/Boolean; java/lang/Boolean
+staticfield java/lang/Boolean TYPE Ljava/lang/Class; java/lang/Class
+ciInstanceKlass java/lang/Character 1 1 459 3 3 3 3 3 3 3 3 8 8 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 5 0 5 0 100 100 100 100 100 100 100 7 100 7 100 100 100 100 100 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 1 1 1 1 1
+staticfield java/lang/Character TYPE Ljava/lang/Class; java/lang/Class
+staticfield java/lang/Character $assertionsDisabled Z 1
+instanceKlass java/math/BigDecimal
+instanceKlass java/math/BigInteger
+instanceKlass java/util/concurrent/atomic/AtomicLong
+instanceKlass java/util/concurrent/atomic/AtomicInteger
+instanceKlass java/lang/Long
+instanceKlass java/lang/Integer
+instanceKlass java/lang/Short
+instanceKlass java/lang/Byte
+instanceKlass java/lang/Double
+instanceKlass java/lang/Float
+ciInstanceKlass java/lang/Number 1 1 34 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 5 0 100 100 7 12 12 10 10 1
+ciInstanceKlass java/lang/Float 1 1 169 3 3 3 4 4 4 4 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 3 3 4 4 5 0 7 100 100 7 100 100 100 100 7 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 1
+staticfield java/lang/Float TYPE Ljava/lang/Class; java/lang/Class
+ciInstanceKlass java/lang/Double 1 1 223 8 8 8 8 8 8 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 3 3 5 0 5 0 5 0 5 0 5 0 6 0 6 0 6 0 6 0 6 0 6 0 6 0 7 100 7 100 100 7 100 100 100 7 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 1
+staticfield java/lang/Double TYPE Ljava/lang/Class; java/lang/Class
+ciInstanceKlass java/lang/Byte 1 1 153 8 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 3 3 5 0 5 0 7 100 7 100 100 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 1 1
+staticfield java/lang/Byte TYPE Ljava/lang/Class; java/lang/Class
+ciInstanceKlass java/lang/Short 1 1 159 3 3 8 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 3 3 5 0 5 0 7 100 100 7 100 7 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 1 1
+staticfield java/lang/Short TYPE Ljava/lang/Class; java/lang/Class
+ciInstanceKlass java/lang/Integer 1 1 309 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 5 0 5 0 5 0 100 7 7 100 100 7 7 100 100 100 7 7 100 100 7 100 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 1 1
+staticfield java/lang/Integer TYPE Ljava/lang/Class; java/lang/Class
+staticfield java/lang/Integer digits [C 36
+staticfield java/lang/Integer DigitTens [C 100
+staticfield java/lang/Integer DigitOnes [C 100
+staticfield java/lang/Integer sizeTable [I 10
+ciInstanceKlass java/lang/Long 1 1 356 3 3 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 5 0 5 0 5 0 5 0 5 0 5 0 5 0 5 0 5 0 5 0 5 0 5 0 5 0 5 0 5 0 100 100 7 100 100 7 7 100 100 100 100 100 100 100 100 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 1 1
+staticfield java/lang/Long TYPE Ljava/lang/Class; java/lang/Class
+ciInstanceKlass java/lang/NullPointerException 1 1 21 1 1 1 1 1 1 1 1 1 1 1 5 0 100 7 12 12 10 10 1
+ciInstanceKlass java/lang/ArithmeticException 1 1 21 1 1 1 1 1 1 1 1 1 1 1 5 0 100 100 12 12 10 10 1
+ciInstanceKlass com/sun/prism/impl/PrismSettings 1 1 563 3 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 5 0 5 0 5 0 5 0 5 0 5 0 100 7 7 7 7 100 100 100 100 100 100 100 7 100 100 7 7 7 100 100 7 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 1 1 1 1 1 1 1
+staticfield com/sun/prism/impl/PrismSettings verbose Z 0
+staticfield com/sun/prism/impl/PrismSettings debug Z 0
+staticfield com/sun/prism/impl/PrismSettings trace Z 0
+staticfield com/sun/prism/impl/PrismSettings printAllocs Z 0
+staticfield com/sun/prism/impl/PrismSettings isVsyncEnabled Z 1
+staticfield com/sun/prism/impl/PrismSettings dirtyOptsEnabled Z 1
+staticfield com/sun/prism/impl/PrismSettings occlusionCullingEnabled Z 1
+staticfield com/sun/prism/impl/PrismSettings threadCheck Z 0
+staticfield com/sun/prism/impl/PrismSettings cacheSimpleShapes Z 0
+staticfield com/sun/prism/impl/PrismSettings cacheComplexShapes Z 1
+staticfield com/sun/prism/impl/PrismSettings useNewImageLoader Z 1
+staticfield com/sun/prism/impl/PrismSettings tryOrder Ljava/util/List; java/util/Collections$UnmodifiableRandomAccessList
+staticfield com/sun/prism/impl/PrismSettings prismStatFrequency I 0
+staticfield com/sun/prism/impl/PrismSettings doPiscesText Z 0
+staticfield com/sun/prism/impl/PrismSettings doOpenPiscesText Z 0
+staticfield com/sun/prism/impl/PrismSettings doNativePisces Z 1
+staticfield com/sun/prism/impl/PrismSettings refType Ljava/lang/String; null
+staticfield com/sun/prism/impl/PrismSettings forceRepaint Z 0
+staticfield com/sun/prism/impl/PrismSettings noFallback Z 0
+staticfield com/sun/prism/impl/PrismSettings showDirtyRegions Z 0
+staticfield com/sun/prism/impl/PrismSettings showOverdraw Z 0
+staticfield com/sun/prism/impl/PrismSettings printRenderGraph Z 0
+staticfield com/sun/prism/impl/PrismSettings shutdownHook Z 0
+staticfield com/sun/prism/impl/PrismSettings minTextureSize I 0
+staticfield com/sun/prism/impl/PrismSettings minRTTSize I 0
+staticfield com/sun/prism/impl/PrismSettings dirtyRegionCount I 6
+staticfield com/sun/prism/impl/PrismSettings disableBadDriverWarning Z 0
+staticfield com/sun/prism/impl/PrismSettings forceGPU Z 0
+staticfield com/sun/prism/impl/PrismSettings maxTextureSize I 4096
+staticfield com/sun/prism/impl/PrismSettings primTextureSize I 0
+staticfield com/sun/prism/impl/PrismSettings disableRegionCaching Z 0
+staticfield com/sun/prism/impl/PrismSettings forcePow2 Z 0
+staticfield com/sun/prism/impl/PrismSettings noClampToZero Z 0
+staticfield com/sun/prism/impl/PrismSettings disableD3D9Ex Z 1
+staticfield com/sun/prism/impl/PrismSettings allowHiDPIScaling Z 1
+staticfield com/sun/prism/impl/PrismSettings maxVram J 268435456
+staticfield com/sun/prism/impl/PrismSettings targetVram J 201326592
+staticfield com/sun/prism/impl/PrismSettings poolStats Z 0
+staticfield com/sun/prism/impl/PrismSettings poolDebug Z 0
+staticfield com/sun/prism/impl/PrismSettings disableEffects Z 0
+staticfield com/sun/prism/impl/PrismSettings glyphCacheWidth I 1024
+staticfield com/sun/prism/impl/PrismSettings glyphCacheHeight I 1024
+staticfield com/sun/prism/impl/PrismSettings perfLog Ljava/lang/String; null
+staticfield com/sun/prism/impl/PrismSettings perfLogExitFlush Z 0
+staticfield com/sun/prism/impl/PrismSettings perfLogFirstPaintFlush Z 0
+staticfield com/sun/prism/impl/PrismSettings perfLogFirstPaintExit Z 0
+staticfield com/sun/prism/impl/PrismSettings superShader Z 1
+ciInstanceKlass com/sun/javafx/Utils 1 1 442 8 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 6 0 6 0 6 0 6 0 6 0 6 0 6 0 6 0 6 0 6 0 6 0 6 0 6 0 6 0 6 0 6 0 6 0 6 0 6 0 6 0 6 0 6 0 6 0 6 0 6 0 6 0 6 0 100 100 100 100 100 100 100 7 7 100 100 100 100 100 100 100 100 100 100 100 100 100 100 7 7 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 11 11 1 1 1 1 1
+staticfield com/sun/javafx/Utils $assertionsDisabled Z 1
+instanceKlass com/sun/javafx/geom/transform/Translate2D
+instanceKlass com/sun/javafx/geom/transform/Identity
+instanceKlass com/sun/javafx/geom/transform/AffineBase
+ciInstanceKlass com/sun/javafx/geom/transform/BaseTransform 1 1 237 8 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 3 3 3 3 3 3 3 3 3 3 3 5 0 6 0 6 0 100 100 100 7 100 100 7 100 7 100 100 7 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 1 1 1 1 1 1 1 1 1
+staticfield com/sun/javafx/geom/transform/BaseTransform IDENTITY_TRANSFORM Lcom/sun/javafx/geom/transform/BaseTransform; com/sun/javafx/geom/transform/Identity
+instanceKlass com/sun/javafx/geom/BoxBounds
+instanceKlass com/sun/javafx/geom/RectBounds
+ciInstanceKlass com/sun/javafx/geom/BaseBounds 1 1 81 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7 100 100 7 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 10 10 10 10 1 1 1 1 1 1 1
+instanceKlass javafx/scene/shape/Shape3D
+instanceKlass javafx/scene/Camera
+instanceKlass javafx/scene/shape/Shape
+instanceKlass javafx/scene/SubScene
+instanceKlass javafx/scene/Parent
+ciInstanceKlass javafx/scene/Node 1 1 2992 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 3 4 5 0 6 0 6 0 6 0 6 0 6 0 6 0 6 0 6 0 6 0 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 7 7 7 100 7 100 7 7 100 7 7 7 7 100 7 100 7 7 100 7 7 7 7 7 7 100 100 100 7 7 100 7 100 100 100 100 100 100 7 100 100 7 100 7 100 7 100 100 100 100 7 100 100 7 100 7 7 7 7 7 7 7 7 7 7 100 7 100 7 7 7 100 100 7 7 100 100 100 7 7 7 100 7 7 100 7 100 7 100 7 7 7 7 7 100 7 7 7 7 7 7 7 7 7 100 7 7 7 7 7 7 7 7 7 7 100 7 7 7 100 7 7 7 7 7 7 100 7 100 7 100 100 7 100 100 100 7 7 7 7 100 7 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+staticfield javafx/scene/Node USER_DATA_KEY Ljava/lang/Object; java/lang/Object
+staticfield javafx/scene/Node DEFAULT_ROTATION_AXIS Ljavafx/geometry/Point3D; javafx/geometry/Point3D
+staticfield javafx/scene/Node DEFAULT_CACHE_HINT Ljavafx/scene/CacheHint; javafx/scene/CacheHint
+staticfield javafx/scene/Node DEFAULT_CLIP Ljavafx/scene/Node; null
+staticfield javafx/scene/Node DEFAULT_CURSOR Ljavafx/scene/Cursor; null
+staticfield javafx/scene/Node DEFAULT_DEPTH_TEST Ljavafx/scene/DepthTest; javafx/scene/DepthTest
+staticfield javafx/scene/Node DEFAULT_EFFECT Ljavafx/scene/effect/Effect; null
+staticfield javafx/scene/Node DEFAULT_INPUT_METHOD_REQUESTS Ljavafx/scene/input/InputMethodRequests; null
+staticfield javafx/scene/Node HOVER_PSEUDOCLASS_STATE Ljavafx/css/PseudoClass; com/sun/javafx/css/PseudoClassImpl
+staticfield javafx/scene/Node PRESSED_PSEUDOCLASS_STATE Ljavafx/css/PseudoClass; com/sun/javafx/css/PseudoClassImpl
+staticfield javafx/scene/Node DISABLED_PSEUDOCLASS_STATE Ljavafx/css/PseudoClass; com/sun/javafx/css/PseudoClassImpl
+staticfield javafx/scene/Node FOCUSED_PSEUDOCLASS_STATE Ljavafx/css/PseudoClass; com/sun/javafx/css/PseudoClassImpl
+staticfield javafx/scene/Node SHOW_MNEMONICS_PSEUDOCLASS_STATE Ljavafx/css/PseudoClass; com/sun/javafx/css/PseudoClassImpl
+staticfield javafx/scene/Node boundsAccessor Lcom/sun/javafx/scene/BoundsAccessor; javafx/scene/Node$22
+ciInstanceKlass javafx/beans/value/ObservableBooleanValue 1 0 13 1 1 1 1 1 100 100 100 1 1 1 1
+instanceKlass javafx/scene/Node$TreeVisiblePropertyReadOnly
+instanceKlass javafx/beans/binding/BooleanBinding
+instanceKlass javafx/beans/property/ReadOnlyBooleanProperty
+ciInstanceKlass javafx/beans/binding/BooleanExpression 1 1 94 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 7 100 7 7 7 100 100 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 10 10 10 10 10 10 10 10 10 10 10 10 10 10 1 1 1 1 1 1 1
+instanceKlass javafx/beans/property/BooleanPropertyBase
+ciInstanceKlass javafx/beans/property/BooleanProperty 1 1 182 8 8 8 8 8 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 7 100 100 100 100 100 7 100 100 100 7 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 1 1 1 1 1 1 1 1 100 1 8 1 1 12 10 1 1 1 8 1 1 1 8 1 1 1 8 1 1 1 8 1 1 8 1 1 8 1 8 1 1 1 8 1 1 1 8 1 1 8 1 1
+instanceKlass com/sun/javafx/scene/control/skin/VirtualFlow$1
+instanceKlass javafx/scene/shape/PathElement$1
+instanceKlass javafx/scene/Group$1
+instanceKlass javafx/stage/PopupWindow$5
+instanceKlass javafx/stage/PopupWindow$4
+instanceKlass javafx/scene/Node$MiscProperties$3
+instanceKlass javafx/scene/Node$MiscProperties$8
+instanceKlass javafx/scene/control/CheckBox$1
+instanceKlass javafx/scene/control/CheckBox$2
+instanceKlass javafx/scene/control/Button$1
+instanceKlass javafx/scene/control/Button$2
+instanceKlass javafx/scene/Node$12
+instanceKlass javafx/scene/Node$20
+instanceKlass javafx/css/StyleableBooleanProperty
+instanceKlass javafx/beans/property/BooleanProperty$1
+instanceKlass javafx/beans/property/SimpleBooleanProperty
+ciInstanceKlass javafx/beans/property/BooleanPropertyBase 1 1 191 8 8 8 8 8 8 8 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7 7 100 7 100 100 100 7 7 100 7 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 1 1 1 1 1 1 1 1 100 1 8 1 1 12 10 1 1 1 8 1 1
+ciInstanceKlass javafx/beans/value/ObservableObjectValue 1 0 14 1 1 1 1 1 100 100 100 1 1 1 1 1
+instanceKlass javafx/beans/property/ObjectPropertyBase
+ciInstanceKlass javafx/beans/property/ObjectProperty 1 1 85 8 8 8 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 100 100 7 100 7 100 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 10 10 10 10 10 10 10 10 10 10 10 10 1 1 1 1 1 1
+ciInstanceKlass javafx/beans/value/ObservableDoubleValue 1 0 11 1 1 1 1 1 100 100 100 1 1
+instanceKlass javafx/beans/binding/DoubleBinding
+instanceKlass javafx/beans/property/ReadOnlyDoubleProperty
+ciInstanceKlass javafx/beans/binding/DoubleExpression 1 1 179 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7 100 100 100 7 100 100 100 7 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 1 1 1 1 1 1 1
+instanceKlass javafx/beans/property/DoublePropertyBase
+ciInstanceKlass javafx/beans/property/DoubleProperty 1 1 183 8 8 8 8 8 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 100 100 100 100 100 100 100 100 100 7 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 1 1 1 1 1 1 1 1 100 1 8 1 1 12 10 1 1 1 8 1 1 1 8 1 1 1 8 1 1 1 8 1 1 8 1 1 8 1 8 1 1 1 8 1 1 1 8 1 1 1 8 1 1
+instanceKlass javafx/scene/effect/DropShadow$5
+instanceKlass javafx/scene/effect/DropShadow$1
+instanceKlass javafx/scene/effect/DropShadow$8
+instanceKlass javafx/scene/effect/DropShadow$7
+instanceKlass javafx/scene/effect/DropShadow$2
+instanceKlass javafx/scene/effect/DropShadow$3
+instanceKlass javafx/scene/shape/LineTo$2
+instanceKlass javafx/scene/shape/LineTo$1
+instanceKlass javafx/scene/shape/MoveTo$2
+instanceKlass javafx/scene/shape/MoveTo$1
+instanceKlass javafx/scene/shape/Rectangle$2
+instanceKlass javafx/scene/shape/Rectangle$1
+instanceKlass javafx/scene/shape/Rectangle$4
+instanceKlass javafx/scene/shape/Rectangle$3
+instanceKlass javafx/animation/Animation$2
+instanceKlass javafx/scene/control/PopupControl$2
+instanceKlass javafx/scene/control/PopupControl$6
+instanceKlass javafx/scene/control/PopupControl$4
+instanceKlass javafx/scene/control/PopupControl$5
+instanceKlass javafx/scene/control/PopupControl$3
+instanceKlass javafx/scene/control/PopupControl$7
+instanceKlass javafx/scene/text/Text$9
+instanceKlass javafx/scene/text/Text$6
+instanceKlass javafx/scene/text/Text$5
+instanceKlass javafx/scene/transform/Rotate$4
+instanceKlass javafx/scene/transform/Rotate$3
+instanceKlass javafx/scene/transform/Rotate$2
+instanceKlass javafx/scene/transform/Rotate$1
+instanceKlass javafx/css/StyleableDoubleProperty
+instanceKlass javafx/scene/Node$14
+instanceKlass javafx/scene/Node$13
+instanceKlass javafx/beans/property/DoubleProperty$1
+instanceKlass javafx/beans/property/SimpleDoubleProperty
+instanceKlass javafx/stage/Stage$6
+instanceKlass javafx/stage/Stage$8
+instanceKlass javafx/stage/Stage$7
+instanceKlass javafx/stage/Stage$9
+instanceKlass javafx/stage/Window$3
+ciInstanceKlass javafx/beans/property/DoublePropertyBase 1 1 200 8 8 8 8 8 8 8 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7 100 100 7 100 100 100 7 7 100 100 7 7 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 1 1 1 1 1 1 1 1 100 1 8 1 1 12 10 1 1 1 8 1 1
+instanceKlass javafx/scene/Camera$2
+instanceKlass javafx/scene/Camera$3
+instanceKlass javafx/beans/property/ReadOnlyDoubleWrapper
+ciInstanceKlass javafx/beans/property/SimpleDoubleProperty 1 1 47 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 7 7 1 1 1 1 1 1 12 12 12 12 12 12 12 9 9 9 10 10 10 10 1 1 1 1 1 1
+staticfield javafx/beans/property/SimpleDoubleProperty DEFAULT_BEAN Ljava/lang/Object; null
+instanceKlass com/sun/javafx/sg/prism/NGShape
+instanceKlass com/sun/javafx/sg/prism/NGCamera
+instanceKlass com/sun/javafx/sg/prism/NGGroup
+ciInstanceKlass com/sun/javafx/sg/prism/NGNode 1 1 1151 3 3 3 3 3 3 3 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 3 3 6 0 8 8 100 100 7 7 7 100 100 7 7 100 100 7 7 100 100 100 100 100 7 100 7 100 100 100 100 100 100 100 100 100 100 7 100 100 7 100 100 100 100 100 100 100 100 100 7 7 100 7 100 7 100 100 100 100 100 7 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+staticfield com/sun/javafx/sg/prism/NGNode pipeline Lcom/sun/prism/GraphicsPipeline; com/sun/prism/d3d/D3DPipeline
+staticfield com/sun/javafx/sg/prism/NGNode effectsSupported Ljava/lang/Boolean; java/lang/Boolean
+staticfield com/sun/javafx/sg/prism/NGNode TEMP_BOUNDS Lcom/sun/javafx/geom/BoxBounds; com/sun/javafx/geom/BoxBounds
+staticfield com/sun/javafx/sg/prism/NGNode TEMP_RECT_BOUNDS Lcom/sun/javafx/geom/RectBounds; com/sun/javafx/geom/RectBounds
+staticfield com/sun/javafx/sg/prism/NGNode TEMP_TRANSFORM Lcom/sun/javafx/geom/transform/Affine3D; com/sun/javafx/geom/transform/Affine3D
+staticfield com/sun/javafx/sg/prism/NGNode $assertionsDisabled Z 1
+ciInstanceKlass com/sun/javafx/sg/prism/NGRegion 1 1 1076 4 8 8 8 8 8 8 8 8 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 4 6 0 6 0 6 0 6 0 6 0 6 0 8 100 100 100 100 100 100 100 100 7 100 7 100 100 100 7 100 100 100 7 100 100 100 100 100 100 100 100 100 100 7 100 100 7 100 7 100 100 100 100 100 100 100 7 7 7 100 100 7 7 100 100 100 100 7 100 100 100 100 100 100 7 7 7 100 7 100 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 1 1 1 1 1 1 1 1 1 1 1 1
+staticfield com/sun/javafx/sg/prism/NGRegion SCRATCH_AFFINE Lcom/sun/javafx/geom/transform/Affine2D; com/sun/javafx/geom/transform/Affine2D
+staticfield com/sun/javafx/sg/prism/NGRegion TEMP_RECT Lcom/sun/javafx/geom/Rectangle; com/sun/javafx/geom/Rectangle
+staticfield com/sun/javafx/sg/prism/NGRegion nopEffect Lcom/sun/scenario/effect/Offset; com/sun/scenario/effect/Offset
+staticfield com/sun/javafx/sg/prism/NGRegion $assertionsDisabled Z 1
+ciInstanceKlass javafx/scene/CacheHint 1 1 59 8 8 8 8 8 8 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 7 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 10 10 10 10 1 1 1 1 1
+staticfield javafx/scene/CacheHint DEFAULT Ljavafx/scene/CacheHint; javafx/scene/CacheHint
+staticfield javafx/scene/CacheHint SPEED Ljavafx/scene/CacheHint; javafx/scene/CacheHint
+staticfield javafx/scene/CacheHint QUALITY Ljavafx/scene/CacheHint; javafx/scene/CacheHint
+staticfield javafx/scene/CacheHint SCALE Ljavafx/scene/CacheHint; javafx/scene/CacheHint
+staticfield javafx/scene/CacheHint ROTATE Ljavafx/scene/CacheHint; javafx/scene/CacheHint
+staticfield javafx/scene/CacheHint SCALE_AND_ROTATE Ljavafx/scene/CacheHint; javafx/scene/CacheHint
+staticfield javafx/scene/CacheHint $VALUES [Ljavafx/scene/CacheHint; 6 [Ljavafx/scene/CacheHint;
+ciInstanceKlass com/sun/javafx/scene/DirtyBits 1 1 209 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 7 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 1 1 1 1 1
+staticfield com/sun/javafx/scene/DirtyBits NODE_CACHE Lcom/sun/javafx/scene/DirtyBits; com/sun/javafx/scene/DirtyBits
+staticfield com/sun/javafx/scene/DirtyBits NODE_CLIP Lcom/sun/javafx/scene/DirtyBits; com/sun/javafx/scene/DirtyBits
+staticfield com/sun/javafx/scene/DirtyBits NODE_EFFECT Lcom/sun/javafx/scene/DirtyBits; com/sun/javafx/scene/DirtyBits
+staticfield com/sun/javafx/scene/DirtyBits NODE_OPACITY Lcom/sun/javafx/scene/DirtyBits; com/sun/javafx/scene/DirtyBits
+staticfield com/sun/javafx/scene/DirtyBits NODE_TRANSFORM Lcom/sun/javafx/scene/DirtyBits; com/sun/javafx/scene/DirtyBits
+staticfield com/sun/javafx/scene/DirtyBits NODE_BOUNDS Lcom/sun/javafx/scene/DirtyBits; com/sun/javafx/scene/DirtyBits
+staticfield com/sun/javafx/scene/DirtyBits NODE_TRANSFORMED_BOUNDS Lcom/sun/javafx/scene/DirtyBits; com/sun/javafx/scene/DirtyBits
+staticfield com/sun/javafx/scene/DirtyBits NODE_VISIBLE Lcom/sun/javafx/scene/DirtyBits; com/sun/javafx/scene/DirtyBits
+staticfield com/sun/javafx/scene/DirtyBits NODE_DEPTH_TEST Lcom/sun/javafx/scene/DirtyBits; com/sun/javafx/scene/DirtyBits
+staticfield com/sun/javafx/scene/DirtyBits NODE_BLENDMODE Lcom/sun/javafx/scene/DirtyBits; com/sun/javafx/scene/DirtyBits
+staticfield com/sun/javafx/scene/DirtyBits NODE_CSS Lcom/sun/javafx/scene/DirtyBits; com/sun/javafx/scene/DirtyBits
+staticfield com/sun/javafx/scene/DirtyBits NODE_GEOMETRY Lcom/sun/javafx/scene/DirtyBits; com/sun/javafx/scene/DirtyBits
+staticfield com/sun/javafx/scene/DirtyBits NODE_CULLFACE Lcom/sun/javafx/scene/DirtyBits; com/sun/javafx/scene/DirtyBits
+staticfield com/sun/javafx/scene/DirtyBits NODE_DRAWMODE Lcom/sun/javafx/scene/DirtyBits; com/sun/javafx/scene/DirtyBits
+staticfield com/sun/javafx/scene/DirtyBits NODE_SMOOTH Lcom/sun/javafx/scene/DirtyBits; com/sun/javafx/scene/DirtyBits
+staticfield com/sun/javafx/scene/DirtyBits NODE_VIEWPORT Lcom/sun/javafx/scene/DirtyBits; com/sun/javafx/scene/DirtyBits
+staticfield com/sun/javafx/scene/DirtyBits NODE_CONTENTS Lcom/sun/javafx/scene/DirtyBits; com/sun/javafx/scene/DirtyBits
+staticfield com/sun/javafx/scene/DirtyBits PARENT_CHILDREN Lcom/sun/javafx/scene/DirtyBits; com/sun/javafx/scene/DirtyBits
+staticfield com/sun/javafx/scene/DirtyBits SHAPE_FILL Lcom/sun/javafx/scene/DirtyBits; com/sun/javafx/scene/DirtyBits
+staticfield com/sun/javafx/scene/DirtyBits SHAPE_FILLRULE Lcom/sun/javafx/scene/DirtyBits; com/sun/javafx/scene/DirtyBits
+staticfield com/sun/javafx/scene/DirtyBits SHAPE_MODE Lcom/sun/javafx/scene/DirtyBits; com/sun/javafx/scene/DirtyBits
+staticfield com/sun/javafx/scene/DirtyBits SHAPE_STROKE Lcom/sun/javafx/scene/DirtyBits; com/sun/javafx/scene/DirtyBits
+staticfield com/sun/javafx/scene/DirtyBits SHAPE_STROKEATTRS Lcom/sun/javafx/scene/DirtyBits; com/sun/javafx/scene/DirtyBits
+staticfield com/sun/javafx/scene/DirtyBits REGION_SHAPE Lcom/sun/javafx/scene/DirtyBits; com/sun/javafx/scene/DirtyBits
+staticfield com/sun/javafx/scene/DirtyBits TEXT_ATTRS Lcom/sun/javafx/scene/DirtyBits; com/sun/javafx/scene/DirtyBits
+staticfield com/sun/javafx/scene/DirtyBits TEXT_FONT Lcom/sun/javafx/scene/DirtyBits; com/sun/javafx/scene/DirtyBits
+staticfield com/sun/javafx/scene/DirtyBits TEXT_SELECTION Lcom/sun/javafx/scene/DirtyBits; com/sun/javafx/scene/DirtyBits
+staticfield com/sun/javafx/scene/DirtyBits TEXT_HELPER Lcom/sun/javafx/scene/DirtyBits; com/sun/javafx/scene/DirtyBits
+staticfield com/sun/javafx/scene/DirtyBits MEDIAVIEW_MEDIA Lcom/sun/javafx/scene/DirtyBits; com/sun/javafx/scene/DirtyBits
+staticfield com/sun/javafx/scene/DirtyBits WEBVIEW_VIEW Lcom/sun/javafx/scene/DirtyBits; com/sun/javafx/scene/DirtyBits
+staticfield com/sun/javafx/scene/DirtyBits EFFECT_EFFECT Lcom/sun/javafx/scene/DirtyBits; com/sun/javafx/scene/DirtyBits
+staticfield com/sun/javafx/scene/DirtyBits NODE_CAMERA Lcom/sun/javafx/scene/DirtyBits; com/sun/javafx/scene/DirtyBits
+staticfield com/sun/javafx/scene/DirtyBits NODE_CAMERA_TRANSFORM Lcom/sun/javafx/scene/DirtyBits; com/sun/javafx/scene/DirtyBits
+staticfield com/sun/javafx/scene/DirtyBits NODE_LIGHT Lcom/sun/javafx/scene/DirtyBits; com/sun/javafx/scene/DirtyBits
+staticfield com/sun/javafx/scene/DirtyBits NODE_LIGHT_SCOPE Lcom/sun/javafx/scene/DirtyBits; com/sun/javafx/scene/DirtyBits
+staticfield com/sun/javafx/scene/DirtyBits NODE_LIGHT_TRANSFORM Lcom/sun/javafx/scene/DirtyBits; com/sun/javafx/scene/DirtyBits
+staticfield com/sun/javafx/scene/DirtyBits MATERIAL Lcom/sun/javafx/scene/DirtyBits; com/sun/javafx/scene/DirtyBits
+staticfield com/sun/javafx/scene/DirtyBits MESH Lcom/sun/javafx/scene/DirtyBits; com/sun/javafx/scene/DirtyBits
+staticfield com/sun/javafx/scene/DirtyBits MESH_GEOM Lcom/sun/javafx/scene/DirtyBits; com/sun/javafx/scene/DirtyBits
+staticfield com/sun/javafx/scene/DirtyBits DEBUG Lcom/sun/javafx/scene/DirtyBits; com/sun/javafx/scene/DirtyBits
+staticfield com/sun/javafx/scene/DirtyBits MAX_DIRTY Lcom/sun/javafx/scene/DirtyBits; com/sun/javafx/scene/DirtyBits
+staticfield com/sun/javafx/scene/DirtyBits $VALUES [Lcom/sun/javafx/scene/DirtyBits; 41 [Lcom/sun/javafx/scene/DirtyBits;
+ciInstanceKlass javafx/scene/Node$MiscProperties 1 1 226 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7 100 7 100 100 7 100 100 7 100 7 100 7 7 100 7 100 100 7 7 100 100 7 7 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 1 1 1 1 1 1 1 1 1
+instanceKlass javafx/scene/effect/InnerShadow
+instanceKlass javafx/scene/effect/DropShadow
+ciInstanceKlass javafx/scene/effect/Effect 1 1 164 4 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7 7 100 7 7 7 7 7 7 7 7 7 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 1 1 1 1 1 1 1 1 1 1
+ciInstanceKlass javafx/scene/effect/BlendMode 0 0 103 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 1 1 1 1 1
+ciInstanceKlass javafx/scene/control/Labeled$9 1 1 41 8 1 1 1 1 1 1 1 1 1 1 1 1 1 7 100 7 100 1 1 1 1 1 1 1 12 12 12 12 9 10 10 1 1 1 1 1 1 1 1
+instanceKlass javafx/beans/property/IntegerPropertyBase
+ciInstanceKlass javafx/beans/property/IntegerProperty 1 1 183 8 8 8 8 8 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 100 100 100 100 100 100 100 100 100 7 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 1 1 1 1 1 1 1 1 100 1 8 1 1 12 10 1 1 1 8 1 1 1 8 1 1 1 8 1 1 1 8 1 1 8 1 1 8 1 8 1 1 1 8 1 1 1 8 1 1 1 8 1 1
+instanceKlass javafx/animation/Animation$4
+instanceKlass javafx/scene/text/Text$TextAttribute$9
+instanceKlass javafx/scene/text/Text$TextAttribute$10
+instanceKlass javafx/beans/property/IntegerProperty$1
+instanceKlass javafx/beans/property/SimpleIntegerProperty
+instanceKlass javafx/css/StyleableIntegerProperty
+ciInstanceKlass javafx/beans/property/IntegerPropertyBase 1 1 200 8 8 8 8 8 8 8 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7 100 100 7 100 100 100 7 7 100 100 7 7 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 1 1 1 1 1 1 1 1 100 1 8 1 1 12 10 1 1 1 8 1 1
+instanceKlass com/sun/scenario/effect/DelegateEffect
+instanceKlass com/sun/scenario/effect/Offset
+instanceKlass com/sun/javafx/sg/prism/NodeEffectInput
+instanceKlass com/sun/javafx/sg/prism/NGNode$EffectDirtyBoundsHelper
+instanceKlass com/sun/scenario/effect/FilterEffect
+instanceKlass com/sun/javafx/sg/prism/NGNode$PassThrough
+ciInstanceKlass com/sun/scenario/effect/Effect 1 1 222 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 100 100 100 100 100 7 7 100 100 100 7 100 100 7 7 7 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 11 1 1 1 1 1 1 1 1 1
+staticfield com/sun/scenario/effect/Effect DefaultInput Lcom/sun/scenario/effect/Effect; null
+ciInstanceKlass com/sun/javafx/sg/prism/NGNode$DirtyFlag 1 1 51 8 8 8 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 7 1 1 1 1 1 1 1 12 12 12 12 12 12 12 9 9 9 9 10 10 10 10 1 1 1 1 1 1 1
+staticfield com/sun/javafx/sg/prism/NGNode$DirtyFlag CLEAN Lcom/sun/javafx/sg/prism/NGNode$DirtyFlag; com/sun/javafx/sg/prism/NGNode$DirtyFlag
+staticfield com/sun/javafx/sg/prism/NGNode$DirtyFlag DIRTY_BY_TRANSLATION Lcom/sun/javafx/sg/prism/NGNode$DirtyFlag; com/sun/javafx/sg/prism/NGNode$DirtyFlag
+staticfield com/sun/javafx/sg/prism/NGNode$DirtyFlag DIRTY Lcom/sun/javafx/sg/prism/NGNode$DirtyFlag; com/sun/javafx/sg/prism/NGNode$DirtyFlag
+staticfield com/sun/javafx/sg/prism/NGNode$DirtyFlag $VALUES [Lcom/sun/javafx/sg/prism/NGNode$DirtyFlag; 3 [Lcom/sun/javafx/sg/prism/NGNode$DirtyFlag;
+ciInstanceKlass com/sun/scenario/effect/Blend$Mode 1 1 115 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 7 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 1 1 1 1 1 1 1
+staticfield com/sun/scenario/effect/Blend$Mode SRC_OVER Lcom/sun/scenario/effect/Blend$Mode; com/sun/scenario/effect/Blend$Mode
+staticfield com/sun/scenario/effect/Blend$Mode SRC_IN Lcom/sun/scenario/effect/Blend$Mode; com/sun/scenario/effect/Blend$Mode
+staticfield com/sun/scenario/effect/Blend$Mode SRC_OUT Lcom/sun/scenario/effect/Blend$Mode; com/sun/scenario/effect/Blend$Mode
+staticfield com/sun/scenario/effect/Blend$Mode SRC_ATOP Lcom/sun/scenario/effect/Blend$Mode; com/sun/scenario/effect/Blend$Mode
+staticfield com/sun/scenario/effect/Blend$Mode ADD Lcom/sun/scenario/effect/Blend$Mode; com/sun/scenario/effect/Blend$Mode
+staticfield com/sun/scenario/effect/Blend$Mode MULTIPLY Lcom/sun/scenario/effect/Blend$Mode; com/sun/scenario/effect/Blend$Mode
+staticfield com/sun/scenario/effect/Blend$Mode SCREEN Lcom/sun/scenario/effect/Blend$Mode; com/sun/scenario/effect/Blend$Mode
+staticfield com/sun/scenario/effect/Blend$Mode OVERLAY Lcom/sun/scenario/effect/Blend$Mode; com/sun/scenario/effect/Blend$Mode
+staticfield com/sun/scenario/effect/Blend$Mode DARKEN Lcom/sun/scenario/effect/Blend$Mode; com/sun/scenario/effect/Blend$Mode
+staticfield com/sun/scenario/effect/Blend$Mode LIGHTEN Lcom/sun/scenario/effect/Blend$Mode; com/sun/scenario/effect/Blend$Mode
+staticfield com/sun/scenario/effect/Blend$Mode COLOR_DODGE Lcom/sun/scenario/effect/Blend$Mode; com/sun/scenario/effect/Blend$Mode
+staticfield com/sun/scenario/effect/Blend$Mode COLOR_BURN Lcom/sun/scenario/effect/Blend$Mode; com/sun/scenario/effect/Blend$Mode
+staticfield com/sun/scenario/effect/Blend$Mode HARD_LIGHT Lcom/sun/scenario/effect/Blend$Mode; com/sun/scenario/effect/Blend$Mode
+staticfield com/sun/scenario/effect/Blend$Mode SOFT_LIGHT Lcom/sun/scenario/effect/Blend$Mode; com/sun/scenario/effect/Blend$Mode
+staticfield com/sun/scenario/effect/Blend$Mode DIFFERENCE Lcom/sun/scenario/effect/Blend$Mode; com/sun/scenario/effect/Blend$Mode
+staticfield com/sun/scenario/effect/Blend$Mode EXCLUSION Lcom/sun/scenario/effect/Blend$Mode; com/sun/scenario/effect/Blend$Mode
+staticfield com/sun/scenario/effect/Blend$Mode RED Lcom/sun/scenario/effect/Blend$Mode; com/sun/scenario/effect/Blend$Mode
+staticfield com/sun/scenario/effect/Blend$Mode GREEN Lcom/sun/scenario/effect/Blend$Mode; com/sun/scenario/effect/Blend$Mode
+staticfield com/sun/scenario/effect/Blend$Mode BLUE Lcom/sun/scenario/effect/Blend$Mode; com/sun/scenario/effect/Blend$Mode
+staticfield com/sun/scenario/effect/Blend$Mode $VALUES [Lcom/sun/scenario/effect/Blend$Mode; 19 [Lcom/sun/scenario/effect/Blend$Mode;
+ciInstanceKlass javafx/scene/shape/Rectangle 1 1 308 8 8 8 8 8 8 8 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 3 6 0 100 7 100 7 7 100 7 100 100 7 100 7 100 7 7 7 100 100 100 7 100 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 1 1 1 1 1 1 1 1 1 1 1 1
+ciInstanceKlass com/sun/javafx/scene/control/skin/LabeledText 1 1 341 8 8 8 8 8 8 8 8 8 8 8 8 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7 7 7 7 7 7 7 7 7 7 7 7 100 100 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 11 1 1 1 1 1 1 1 1
+staticfield com/sun/javafx/scene/control/skin/LabeledText FONT Ljavafx/css/CssMetaData; com/sun/javafx/scene/control/skin/LabeledText$1
+staticfield com/sun/javafx/scene/control/skin/LabeledText FILL Ljavafx/css/CssMetaData; com/sun/javafx/scene/control/skin/LabeledText$2
+staticfield com/sun/javafx/scene/control/skin/LabeledText TEXT_ALIGNMENT Ljavafx/css/CssMetaData; com/sun/javafx/scene/control/skin/LabeledText$3
+staticfield com/sun/javafx/scene/control/skin/LabeledText UNDERLINE Ljavafx/css/CssMetaData; com/sun/javafx/scene/control/skin/LabeledText$4
+staticfield com/sun/javafx/scene/control/skin/LabeledText LINE_SPACING Ljavafx/css/CssMetaData; com/sun/javafx/scene/control/skin/LabeledText$5
+staticfield com/sun/javafx/scene/control/skin/LabeledText STYLEABLES Ljava/util/List; java/util/Collections$UnmodifiableRandomAccessList
+ciInstanceKlass com/sun/javafx/sg/prism/NGText 1 1 381 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 6 0 7 100 100 7 100 100 100 100 100 7 100 7 100 7 100 100 100 100 100 7 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 1 1 1 1 1 1 1
+staticfield com/sun/javafx/sg/prism/NGText IDENT Lcom/sun/javafx/geom/transform/BaseTransform; com/sun/javafx/geom/transform/Identity
+ciInstanceKlass javafx/scene/Node$MiscProperties$5 1 1 144 8 8 8 8 8 8 8 8 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7 100 100 100 7 7 7 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 1 1 1 1 1 1 1 1 1
+ciInstanceKlass javafx/beans/binding/Bindings$BooleanAndBinding 1 1 64 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 100 7 7 7 7 1 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 9 9 9 10 10 10 11 11 11 1 1 1 1 1 1 1 1 1
+ciInstanceKlass com/sun/javafx/effect/EffectDirtyBits 1 1 57 8 8 7 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 7 1 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 12 9 9 9 9 10 10 10 10 10 10 1 1 1 1 1 1
+staticfield com/sun/javafx/effect/EffectDirtyBits EFFECT_DIRTY Lcom/sun/javafx/effect/EffectDirtyBits; com/sun/javafx/effect/EffectDirtyBits
+staticfield com/sun/javafx/effect/EffectDirtyBits BOUNDS_CHANGED Lcom/sun/javafx/effect/EffectDirtyBits; com/sun/javafx/effect/EffectDirtyBits
+staticfield com/sun/javafx/effect/EffectDirtyBits $VALUES [Lcom/sun/javafx/effect/EffectDirtyBits; 2 [Lcom/sun/javafx/effect/EffectDirtyBits;
+ciInstanceKlass javafx/scene/text/Text$TextAttribute$6$1 1 1 57 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 7 7 7 7 7 7 7 1 1 1 1 1 1 1 12 12 12 12 12 12 12 12 9 9 9 10 10 10 10 10 1 1 1 1 1 1 1
+ciMethod com/sun/javafx/Utils clamp (DDD)D 1393 1 174 0 -1
+ciMethod com/sun/javafx/geom/BaseBounds deriveWithNewBounds (Lcom/sun/javafx/geom/BaseBounds;)Lcom/sun/javafx/geom/BaseBounds; 0 0 1 0 -1
+ciMethod javafx/scene/Node impl_isDirty (Lcom/sun/javafx/scene/DirtyBits;)Z 1769 1 10762 0 -1
+ciMethod javafx/scene/Node impl_updatePeer ()V 3121 1 390 0 -1
+ciMethod javafx/scene/Node isVisible ()Z 2073 1 4352 0 -1
+ciMethod javafx/scene/Node getOpacity ()D 1105 1 138 0 -1
+ciMethod javafx/scene/Node getBlendMode ()Ljavafx/scene/effect/BlendMode; 1105 1 138 0 -1
+ciMethod javafx/scene/Node getClip ()Ljavafx/scene/Node; 2145 1 5605 0 -1
+ciMethod javafx/scene/Node isCache ()Z 1105 1 138 0 -1
+ciMethod javafx/scene/Node getCacheHint ()Ljavafx/scene/CacheHint; 1105 1 138 0 -1
+ciMethod javafx/scene/Node getEffect ()Ljavafx/scene/effect/Effect; 3097 1 2747 0 -1
+ciMethod javafx/scene/Node isDerivedDepthTest ()Z 1065 1 133 0 -1
+ciMethod javafx/scene/Node impl_getPeer ()Lcom/sun/javafx/sg/prism/NGNode; 3273 1 1271 0 -1
+ciMethod javafx/scene/Node access$3300 ()Ljavafx/scene/CacheHint; 153 1 19 0 -1
+ciMethod javafx/scene/Node access$3400 ()Ljavafx/scene/Node; 41 1 623 0 -1
+ciMethod javafx/scene/Node access$4000 ()Ljavafx/scene/effect/Effect; 481 1 534 0 -1
+ciMethod javafx/beans/property/BooleanPropertyBase get ()Z 1897 1 2123 0 -1
+ciMethod javafx/beans/value/ObservableBooleanValue get ()Z 0 0 1 0 -1
+ciMethod javafx/beans/property/BooleanProperty get ()Z 0 0 1 0 -1
+ciMethod javafx/beans/value/ObservableObjectValue get ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethod javafx/beans/value/ObservableDoubleValue get ()D 0 0 1 0 -1
+ciMethod javafx/beans/property/DoubleProperty get ()D 0 0 1 0 -1
+ciMethod javafx/beans/property/DoublePropertyBase get ()D 3081 1 2958 0 -1
+ciMethod com/sun/javafx/sg/prism/NGNode setVisible (Z)V 1105 1 138 0 -1
+ciMethod com/sun/javafx/sg/prism/NGNode setContentBounds (Lcom/sun/javafx/geom/BaseBounds;)V 2849 1 356 0 -1
+ciMethod com/sun/javafx/sg/prism/NGNode setTransformedBounds (Lcom/sun/javafx/geom/BaseBounds;Z)V 3105 1 388 0 -1
+ciMethod com/sun/javafx/sg/prism/NGNode setTransformMatrix (Lcom/sun/javafx/geom/transform/BaseTransform;)V 1577 1 197 0 -1
+ciMethod com/sun/javafx/sg/prism/NGNode setClipNode (Lcom/sun/javafx/sg/prism/NGNode;)V 1105 1 138 0 -1
+ciMethod com/sun/javafx/sg/prism/NGNode setOpacity (F)V 1105 1 138 0 -1
+ciMethod com/sun/javafx/sg/prism/NGNode setNodeBlendMode (Lcom/sun/scenario/effect/Blend$Mode;)V 1105 1 138 0 -1
+ciMethod com/sun/javafx/sg/prism/NGNode setDepthTest (Z)V 1105 1 138 0 -1
+ciMethod com/sun/javafx/sg/prism/NGNode setCachedAsBitmap (ZLjavafx/scene/CacheHint;)V 1105 1 138 0 -1
+ciMethod com/sun/javafx/sg/prism/NGNode setEffect (Lcom/sun/scenario/effect/Effect;)V 1105 1 138 0 -1
+ciMethod com/sun/javafx/sg/prism/NGNode effectChanged ()V 65 1 8 0 -1
+ciMethod com/sun/javafx/sg/prism/NGNode visualsChanged ()V 2457 1 307 0 -1
+ciMethod com/sun/javafx/sg/prism/NGNode markDirty ()V 2217 1 956 0 -1
+ciMethod com/sun/javafx/sg/prism/NGNode markTreeDirty ()V 0 0 1 0 -1
+ciMethod com/sun/javafx/sg/prism/NGNode invalidateOpaqueRegion ()V 2369 1 1112 0 -1
+ciMethod com/sun/javafx/scene/DirtyBits getMask ()J 3265 1 12181 0 -1
+ciMethod javafx/scene/Node$MiscProperties isCache ()Z 153 1 19 0 -1
+ciMethod javafx/scene/Node$MiscProperties getCacheHint ()Ljavafx/scene/CacheHint; 153 1 19 0 -1
+ciMethod javafx/scene/Node$MiscProperties getClip ()Ljavafx/scene/Node; 121 1 1051 0 -1
+ciMethod javafx/scene/Node$MiscProperties getEffect ()Ljavafx/scene/effect/Effect; 929 1 590 0 -1
+ciMethod javafx/scene/effect/Effect impl_createImpl ()Lcom/sun/scenario/effect/Effect; 0 0 1 0 -1
+ciMethod javafx/scene/effect/Effect impl_getImpl ()Lcom/sun/scenario/effect/Effect; 97 1 12 0 -1
+ciMethod javafx/scene/effect/Effect setEffectDirty (I)V 545 1 68 0 -1
+ciMethod javafx/scene/effect/Effect impl_effectDirtyProperty ()Ljavafx/beans/property/IntegerProperty; 769 1 96 0 -1
+ciMethod javafx/scene/effect/Effect isEffectDirty (Lcom/sun/javafx/effect/EffectDirtyBits;)Z 161 1 20 0 -1
+ciMethod javafx/scene/effect/Effect clearEffectDirty (Lcom/sun/javafx/effect/EffectDirtyBits;)V 33 1 4 0 -1
+ciMethod javafx/scene/effect/Effect impl_sync ()V 65 1 8 0 -1
+ciMethod javafx/scene/effect/Effect impl_update ()V 0 0 1 0 -1
+ciMethod javafx/beans/property/IntegerProperty get ()I 0 0 1 0 -1
+ciMethod javafx/beans/property/IntegerProperty set (I)V 0 0 1 0 -1
+ciMethod javafx/beans/property/IntegerPropertyBase get ()I 2537 1 317 0 -1
+ciMethodData javafx/scene/Node isVisible ()Z 2 4352 orig 144 152 11 117 103 0 0 0 0 8 197 218 86 0 0 0 0 16 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 1 0 0 233 127 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 9 0 3 0 1 0 104 0 0 0 255 255 255 255 0 0 0 0 7 0 4 0 0 0 0 0 data 13 0x40007 0x198 0x38 0xe65 0x80003 0xe65 0x48 0xf0005 0x0 0x586e8050 0x198 0x0 0x0 oops 1 9 javafx/beans/property/BooleanPropertyBase
+ciMethodData javafx/beans/property/BooleanPropertyBase get ()Z 2 2123 orig 144 152 11 117 103 0 0 0 0 104 28 222 86 0 0 0 0 16 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 237 0 0 0 241 58 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 6 0 3 0 1 0 104 0 0 0 255 255 255 255 0 0 0 0 7 0 9 0 0 0 0 0 data 13 0x90007 0x26 0x38 0x738 0x100003 0x738 0x48 0x170005 0x0 0x586e8310 0x1c 0x586e83c0 0xa oops 2 9 javafx/beans/binding/Bindings$BooleanAndBinding 11 javafx/scene/control/Labeled$9
+ciMethod com/sun/javafx/effect/EffectDirtyBits getMask ()I 897 1 112 0 -1
+ciMethodData javafx/scene/Node getClip ()Ljavafx/scene/Node; 2 5605 orig 144 152 11 117 103 0 0 0 0 80 205 218 86 0 0 0 0 16 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 1 0 0 201 166 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 9 0 3 0 1 0 104 0 0 0 255 255 255 255 0 0 0 0 7 0 4 0 0 0 0 0 data 13 0x40007 0x40c 0x38 0x10cd 0xa0003 0x10cd 0x48 0x110005 0x0 0x586e6450 0x40c 0x0 0x0 oops 1 9 javafx/scene/Node$MiscProperties
+ciMethodData javafx/scene/Node$MiscProperties getClip ()Ljavafx/scene/Node; 2 1051 orig 144 152 11 117 103 0 0 0 0 184 172 242 86 0 0 0 0 80 1 0 0 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 15 0 0 0 97 32 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 168 0 0 0 255 255 255 255 0 0 0 0 7 0 4 0 0 0 0 0 data 21 0x40007 0x1a6 0x48 0x266 0x70002 0x266 0xa0003 0x266 0x78 0x110005 0x0 0x58571800 0x1a6 0x0 0x0 0x140004 0x0 0x585718b0 0x1a6 0x0 0x0 oops 2 11 javafx/scene/Node$MiscProperties$5 17 javafx/scene/shape/Rectangle
+ciMethodData javafx/scene/Node access$3400 ()Ljavafx/scene/Node; 1 623 orig 144 152 11 117 103 0 0 0 0 184 13 220 86 0 0 0 0 160 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 81 19 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData com/sun/javafx/scene/DirtyBits getMask ()J 2 12181 orig 144 152 11 117 103 0 0 0 0 152 163 240 86 0 0 0 0 168 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 152 1 0 0 233 111 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 3 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData javafx/beans/property/DoublePropertyBase get ()D 2 2958 orig 144 152 11 117 103 0 0 0 0 104 121 223 86 0 0 0 0 16 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 1 0 0 105 80 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 6 0 3 0 1 0 104 0 0 0 255 255 255 255 0 0 0 0 7 0 9 0 0 0 0 0 data 13 0x90007 0xcb 0x38 0x942 0x100003 0x942 0x48 0x170005 0x9c 0x586e26d0 0x23 0x586e2780 0xc oops 2 9 javafx/scene/text/Text$TextAttribute$6$1 11 javafx/beans/property/SimpleDoubleProperty
+ciMethodData javafx/scene/Node impl_isDirty (Lcom/sun/javafx/scene/DirtyBits;)Z 2 10762 orig 144 152 11 117 103 0 0 0 0 160 172 218 86 0 0 0 0 24 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 221 0 0 0 105 73 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 6 0 4 0 1 0 104 0 0 0 255 255 255 255 0 0 0 0 5 0 6 0 0 0 0 0 data 13 0x60005 0x2d7 0x5bcfa760 0x2656 0x0 0x0 0xc0007 0x1d20 0x38 0xc0d 0x100003 0xc0d 0x18 oops 1 2 com/sun/javafx/scene/DirtyBits
+ciMethodData com/sun/javafx/sg/prism/NGNode markDirty ()V 1 956 orig 144 152 11 117 103 0 0 0 0 128 229 234 86 0 0 0 0 248 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 21 1 0 0 57 21 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 6 0 3 0 1 0 80 0 0 0 255 255 255 255 0 0 0 0 7 0 7 0 0 0 0 0 data 10 0x70007 0x2a7 0x50 0x0 0x120005 0x0 0x0 0x0 0x0 0x0 oops 0
+ciMethodData com/sun/javafx/sg/prism/NGNode markTreeDirty ()V 1 0 orig 144 152 11 117 103 0 0 0 0 176 232 234 86 0 0 0 0 48 3 0 0 16 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 128 2 0 0 255 255 255 255 0 0 0 0 7 0 17 0 0 0 0 0 data 80 0x110007 0x0 0x38 0x0 0x150003 0x0 0x18 0x1b0007 0x0 0x178 0x0 0x250007 0x0 0x158 0x0 0x2c0007 0x0 0x60 0x0 0x300007 0x0 0x40 0x0 0x340007 0x0 0xf8 0x0 0x380007 0x0 0x38 0x0 0x420003 0x0 0x38 0x460007 0x0 0x20 0x0 0x590005 0x0 0x0 0x0 0x0 0x0 0x680007 0x0 0x38 0x0 0x6c0003 0x0 0x18 0x760003 0x0 0xfffffffffffffea0 0x7a0007 0x0 0x80 0x0 0x840007 0x0 0x60 0x0 0x880007 0x0 0x40 0x0 0x8c0007 0x0 0x20 0x0 0x9a0007 0x0 0x50 0x0 0x9e0005 0x0 0x0 0x0 0x0 0x0 oops 0
+ciMethodData com/sun/javafx/sg/prism/NGNode invalidateOpaqueRegion ()V 1 1112 orig 144 152 11 117 103 0 0 0 0 248 3 235 86 0 0 0 0 248 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 40 1 0 0 129 25 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 9 0 3 0 1 0 80 0 0 0 255 255 255 255 0 0 0 0 7 0 9 0 0 0 0 0 data 10 0x90007 0x304 0x50 0x2c 0x100005 0x0 0x5847e300 0x29 0x5847e3b0 0x3 oops 2 6 com/sun/javafx/sg/prism/NGRegion 8 com/sun/javafx/sg/prism/NGText
+ciMethodData javafx/scene/Node impl_getPeer ()Lcom/sun/javafx/sg/prism/NGNode; 1 1271 orig 144 152 11 117 103 0 0 0 0 32 249 218 86 0 0 0 0 24 2 0 0 16 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 152 1 0 0 241 26 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 9 0 3 0 1 0 112 1 0 0 255 255 255 255 0 0 0 0 2 0 0 0 0 0 0 0 data 46 0x2 0x35e 0x30007 0x35e 0x110 0x0 0x70005 0x0 0x0 0x0 0x0 0x0 0xa0007 0x0 0xc0 0x0 0xd0002 0x0 0x100007 0x0 0x90 0x0 0x160005 0x0 0x0 0x0 0x0 0x0 0x1f0005 0x0 0x0 0x0 0x0 0x0 0x220002 0x0 0x290007 0x35d 0x50 0x1 0x2e0005 0x0 0x5bcfa3a0 0x1 0x0 0x0 oops 1 42 com/sun/javafx/scene/control/skin/LabeledText
+ciMethodData javafx/scene/Node getEffect ()Ljavafx/scene/effect/Effect; 2 2747 orig 144 152 11 117 103 0 0 0 0 32 211 218 86 0 0 0 0 16 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 131 1 0 0 193 73 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 9 0 3 0 1 0 104 0 0 0 255 255 255 255 0 0 0 0 7 0 4 0 0 0 0 0 data 13 0x40007 0x1da 0x38 0x75e 0xa0003 0x75e 0x48 0x110005 0x0 0x586e6450 0x1da 0x0 0x0 oops 1 9 javafx/scene/Node$MiscProperties
+ciMethodData javafx/scene/Node$MiscProperties getEffect ()Ljavafx/scene/effect/Effect; 1 590 orig 144 152 11 117 103 0 0 0 0 216 178 242 86 0 0 0 0 80 1 0 0 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 116 0 0 0 209 14 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 168 0 0 0 255 255 255 255 0 0 0 0 7 0 4 0 0 0 0 0 data 21 0x40007 0x0 0x48 0x1da 0x70002 0x1da 0xa0003 0x1da 0x78 0x110005 0x0 0x0 0x0 0x0 0x0 0x140004 0x0 0x0 0x0 0x0 0x0 oops 0
+ciMethodData javafx/scene/Node access$4000 ()Ljavafx/scene/effect/Effect; 1 534 orig 144 152 11 117 103 0 0 0 0 176 16 220 86 0 0 0 0 160 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 60 0 0 0 209 14 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData javafx/scene/Node impl_updatePeer ()V 1 390 orig 144 152 11 117 103 0 0 0 0 224 179 218 86 0 0 0 0 160 13 0 0 184 12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 134 1 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 232 12 0 0 255 255 255 255 0 0 0 0 5 0 1 0 0 0 0 0 data 413 0x10005 0x0 0x0 0x0 0x0 0x0 0x80007 0x0 0x318 0x0 0xf0005 0x0 0x0 0x0 0x0 0x0 0x120007 0x0 0x2c8 0x0 0x160005 0x0 0x0 0x0 0x0 0x0 0x1b0005 0x0 0x0 0x0 0x0 0x0 0x1e0005 0x0 0x0 0x0 0x0 0x0 0x230005 0x0 0x0 0x0 0x0 0x0 0x260007 0x0 0x80 0x0 0x2a0005 0x0 0x0 0x0 0x0 0x0 0x2d0005 0x0 0x0 0x0 0x0 0x0 0x330007 0x0 0x38 0x0 0x370003 0x0 0x118 0x3e0002 0x0 0x420005 0x0 0x0 0x0 0x0 0x0 0x470005 0x0 0x0 0x0 0x0 0x0 0x4b0005 0x0 0x0 0x0 0x0 0x0 0x500005 0x0 0x0 0x0 0x0 0x0 0x530005 0x0 0x0 0x0 0x0 0x0 0x560005 0x0 0x0 0x0 0x0 0x0 0x5d0005 0x0 0x0 0x0 0x0 0x0 0x600007 0x0 0x50 0x0 0x680005 0x0 0x0 0x0 0x0 0x0 0x6f0005 0x0 0x0 0x0 0x0 0x0 0x720007 0x0 0x50 0x0 0x7a0005 0x0 0x0 0x0 0x0 0x0 0x810005 0x0 0x0 0x0 0x0 0x0 0x840007 0x0 0xb8 0x0 0x900005 0x0 0x0 0x0 0x0 0x0 0x930007 0x0 0x38 0x0 0x970003 0x0 0x18 0x9b0005 0x0 0x0 0x0 0x0 0x0 0xa20005 0x0 0x0 0x0 0x0 0x0 0xa50007 0x0 0x90 0x0 0xab0005 0x0 0x0 0x0 0x0 0x0 0xaf0002 0x0 0xb30005 0x0 0x0 0x0 0x0 0x0 0xba0005 0x0 0x0 0x0 0x0 0x0 0xbd0007 0x0 0xb0 0x0 0xc20005 0x0 0x0 0x0 0x0 0x0 0xc60005 0x0 0x0 0x0 0x0 0x0 0xc90005 0x0 0x0 0x0 0x0 0x0 0xd00005 0x0 0x0 0x0 0x0 0x0 0xd30007 0x0 0x118 0x0 0xd80005 0x0 0x0 0x0 0x0 0x0 0xdb0007 0x0 0x98 0x0 0xdf0005 0x0 0x0 0x0 0x0 0x0 0xe20005 0x0 0x0 0x0 0x0 0x0 0xe50003 0x0 0x18 0xe90005 0x0 0x0 0x0 0x0 0x0 0xf00005 0x0 0x0 0x0 0x0 0x0 0xf30007 0x0 0x100 0x0 0xf70005 0x0 0x0 0x0 0x0 0x0 0xfa0007 0x0 0xb0 0x0 0xfe0005 0x0 0x0 0x0 0x0 0x0 0x1010005 0x0 0x0 0x0 0x0 0x0 0x1050005 0x0 0x0 0x0 0x0 0x0 0x10c0005 0x0 0x0 0x0 0x0 0x0 0x10f0007 0x0 0x118 0x0 0x1140005 0x0 0x0 0x0 0x0 0x0 0x1170007 0x0 0x98 0x0 0x11b0005 0x0 0x0 0x0 0x0 0x0 0x11e0005 0x0 0x0 0x0 0x0 0x0 0x1210003 0x0 0x18 0x1250005 0x0 0x0 0x0 0x0 0x0 0x12c0005 0x0 0x0 0x0 0x0 0x0 0x12f0007 0x0 0x80 0x0 0x1340005 0x0 0x0 0x0 0x0 0x0 0x1370005 0x0 0x0 0x0 0x0 0x0 0x13e0005 0x0 0x0 0x0 0x0 0x0 0x1410007 0x0 0x80 0x0 0x1460005 0x0 0x0 0x0 0x0 0x0 0x1490005 0x0 0x0 0x0 0x0 0x0 0x1500005 0x0 0x0 0x0 0x0 0x0 0x1530007 0x0 0xc8 0x0 0x1570005 0x0 0x0 0x0 0x0 0x0 0x15d0007 0x0 0x38 0x0 0x1610003 0x0 0x28 0x1650002 0x0 0x1680005 0x0 0x0 0x0 0x0 0x0 oops 0
+ciMethodData com/sun/javafx/sg/prism/NGNode setTransformMatrix (Lcom/sun/javafx/geom/transform/BaseTransform;)V 1 197 orig 144 152 11 117 103 0 0 0 0 224 206 234 86 0 0 0 0 216 7 0 0 192 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 197 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 32 7 0 0 255 255 255 255 0 0 0 0 7 0 6 0 0 0 0 0 data 228 0x60007 0x0 0x648 0x0 0x100007 0x0 0x628 0x0 0x170007 0x0 0x48 0x0 0x1f0002 0x0 0x250003 0x0 0x5d8 0x2c0005 0x0 0x0 0x0 0x0 0x0 0x300005 0x0 0x0 0x0 0x0 0x0 0x340007 0x0 0x560 0x0 0x3b0005 0x0 0x0 0x0 0x0 0x0 0x3f0005 0x0 0x0 0x0 0x0 0x0 0x430007 0x0 0x4e0 0x0 0x4a0005 0x0 0x0 0x0 0x0 0x0 0x4e0005 0x0 0x0 0x0 0x0 0x0 0x520007 0x0 0x460 0x0 0x590005 0x0 0x0 0x0 0x0 0x0 0x5d0005 0x0 0x0 0x0 0x0 0x0 0x610007 0x0 0x3e0 0x0 0x680005 0x0 0x0 0x0 0x0 0x0 0x6c0005 0x0 0x0 0x0 0x0 0x0 0x700007 0x0 0x360 0x0 0x770005 0x0 0x0 0x0 0x0 0x0 0x7b0005 0x0 0x0 0x0 0x0 0x0 0x7f0007 0x0 0x2e0 0x0 0x860005 0x0 0x0 0x0 0x0 0x0 0x8a0005 0x0 0x0 0x0 0x0 0x0 0x8e0007 0x0 0x260 0x0 0x950005 0x0 0x0 0x0 0x0 0x0 0x990005 0x0 0x0 0x0 0x0 0x0 0x9d0007 0x0 0x1e0 0x0 0xa40005 0x0 0x0 0x0 0x0 0x0 0xa80005 0x0 0x0 0x0 0x0 0x0 0xac0007 0x0 0x160 0x0 0xb30005 0x0 0x0 0x0 0x0 0x0 0xb70005 0x0 0x0 0x0 0x0 0x0 0xbb0007 0x0 0xe0 0x0 0xc50005 0x0 0x0 0x0 0x0 0x0 0xcc0005 0x0 0x0 0x0 0x0 0x0 0xd80005 0x0 0x0 0x0 0x0 0x0 0xdf0005 0x0 0x0 0x0 0x0 0x0 0xec0005 0x0 0x0 0x0 0x0 0x0 0xf30007 0x0 0x48 0x0 0xf70002 0x0 0xfa0003 0x0 0x48 0xfe0005 0x0 0x0 0x0 0x0 0x0 0x1020005 0x0 0x0 0x0 0x0 0x0 oops 0
+ciMethodData com/sun/javafx/sg/prism/NGNode setContentBounds (Lcom/sun/javafx/geom/BaseBounds;)V 1 356 orig 144 152 11 117 103 0 0 0 0 112 205 234 86 0 0 0 0 224 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 100 1 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 48 0 0 0 255 255 255 255 0 0 0 0 5 0 6 0 0 0 0 0 data 6 0x60005 0x0 0x0 0x0 0x0 0x0 oops 0
+ciMethodData com/sun/javafx/sg/prism/NGNode setTransformedBounds (Lcom/sun/javafx/geom/BaseBounds;Z)V 1 388 orig 144 152 11 117 103 0 0 0 0 112 206 234 86 0 0 0 0 208 2 0 0 24 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 132 1 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 24 2 0 0 255 255 255 255 0 0 0 0 5 0 5 0 0 0 0 0 data 67 0x50005 0x0 0x0 0x0 0x0 0x0 0x80007 0x0 0x20 0x0 0x100005 0x0 0x0 0x0 0x0 0x0 0x130007 0x0 0x98 0x0 0x1f0005 0x0 0x0 0x0 0x0 0x0 0x2b0005 0x0 0x0 0x0 0x0 0x0 0x310003 0x0 0x48 0x3d0005 0x0 0x0 0x0 0x0 0x0 0x490005 0x0 0x0 0x0 0x0 0x0 0x500005 0x0 0x0 0x0 0x0 0x0 0x530007 0x0 0x70 0x0 0x570007 0x0 0x50 0x0 0x5b0005 0x0 0x0 0x0 0x0 0x0 oops 0
+ciMethodData javafx/scene/Node getOpacity ()D 1 138 orig 144 152 11 117 103 0 0 0 0 16 201 218 86 0 0 0 0 16 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 138 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 104 0 0 0 255 255 255 255 0 0 0 0 7 0 4 0 0 0 0 0 data 13 0x40007 0x0 0x38 0x0 0x80003 0x0 0x48 0xf0005 0x0 0x0 0x0 0x0 0x0 oops 0
+ciMethodData com/sun/javafx/Utils clamp (DDD)D 1 174 orig 144 152 11 117 103 0 0 0 0 56 26 206 86 0 0 0 0 16 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 174 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 64 0 0 0 255 255 255 255 0 0 0 0 7 0 3 0 0 0 0 0 data 8 0x30007 0x0 0x20 0x0 0xc0007 0x0 0x20 0x0 oops 0
+ciMethodData com/sun/javafx/sg/prism/NGNode setOpacity (F)V 1 138 orig 144 152 11 117 103 0 0 0 0 200 208 234 86 0 0 0 0 64 2 0 0 64 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 138 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 144 1 0 0 255 255 255 255 0 0 0 0 7 0 3 0 0 0 0 0 data 50 0x30007 0x0 0x40 0x0 0x90007 0x0 0x30 0x0 0x120002 0x0 0x1c0007 0x0 0x140 0x0 0x2a0005 0x0 0x0 0x0 0x0 0x0 0x300007 0x0 0x60 0x0 0x360007 0x0 0xa0 0x0 0x3c0007 0x0 0x80 0x0 0x420007 0x0 0x90 0x0 0x480007 0x0 0x40 0x0 0x4e0007 0x0 0x50 0x0 0x520005 0x0 0x0 0x0 0x0 0x0 oops 0
+ciMethodData javafx/scene/Node isCache ()Z 1 138 orig 144 152 11 117 103 0 0 0 0 64 207 218 86 0 0 0 0 16 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 138 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 104 0 0 0 255 255 255 255 0 0 0 0 7 0 4 0 0 0 0 0 data 13 0x40007 0x0 0x38 0x0 0x80003 0x0 0x48 0xf0005 0x0 0x0 0x0 0x0 0x0 oops 0
+ciMethodData javafx/scene/Node$MiscProperties isCache ()Z 1 19 orig 144 152 11 117 103 0 0 0 0 168 169 242 86 0 0 0 0 16 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 104 0 0 0 255 255 255 255 0 0 0 0 7 0 4 0 0 0 0 0 data 13 0x40007 0x0 0x38 0x0 0x80003 0x0 0x48 0xf0005 0x0 0x0 0x0 0x0 0x0 oops 0
+ciMethodData javafx/scene/Node getCacheHint ()Ljavafx/scene/CacheHint; 1 138 orig 144 152 11 117 103 0 0 0 0 48 209 218 86 0 0 0 0 16 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 138 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 104 0 0 0 255 255 255 255 0 0 0 0 7 0 4 0 0 0 0 0 data 13 0x40007 0x0 0x38 0x0 0xa0003 0x0 0x48 0x110005 0x0 0x0 0x0 0x0 0x0 oops 0
+ciMethodData javafx/scene/Node$MiscProperties getCacheHint ()Ljavafx/scene/CacheHint; 1 19 orig 144 152 11 117 103 0 0 0 0 48 171 242 86 0 0 0 0 80 1 0 0 48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 168 0 0 0 255 255 255 255 0 0 0 0 7 0 4 0 0 0 0 0 data 21 0x40007 0x0 0x48 0x0 0x70002 0x0 0xa0003 0x0 0x78 0x110005 0x0 0x0 0x0 0x0 0x0 0x140004 0x0 0x0 0x0 0x0 0x0 oops 0
+ciMethodData javafx/scene/Node access$3300 ()Ljavafx/scene/CacheHint; 1 19 orig 144 152 11 117 103 0 0 0 0 32 13 220 86 0 0 0 0 160 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 19 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData com/sun/javafx/sg/prism/NGNode setCachedAsBitmap (ZLjavafx/scene/CacheHint;)V 1 138 orig 144 152 11 117 103 0 0 0 0 96 211 234 86 0 0 0 0 200 2 0 0 176 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 138 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 16 2 0 0 255 255 255 255 0 0 0 0 7 0 1 0 0 0 0 0 data 66 0x10007 0x0 0x30 0x0 0xa0002 0x0 0xf0007 0x0 0x160 0x0 0x160007 0x0 0x78 0x0 0x200002 0x0 0x270005 0x0 0x0 0x0 0x0 0x0 0x2a0003 0x0 0x160 0x320005 0x0 0x0 0x0 0x0 0x0 0x350007 0x0 0x118 0x0 0x3d0005 0x0 0x0 0x0 0x0 0x0 0x410005 0x0 0x0 0x0 0x0 0x0 0x440003 0x0 0x98 0x4b0007 0x0 0x80 0x0 0x520005 0x0 0x0 0x0 0x0 0x0 0x5b0005 0x0 0x0 0x0 0x0 0x0 oops 0
+ciMethodData com/sun/javafx/sg/prism/NGNode setClipNode (Lcom/sun/javafx/sg/prism/NGNode;)V 1 138 orig 144 152 11 117 103 0 0 0 0 192 207 234 86 0 0 0 0 176 1 0 0 144 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 138 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 255 255 255 255 0 0 0 0 7 0 5 0 0 0 0 0 data 32 0x50007 0x0 0x100 0x0 0xc0007 0x0 0x50 0x0 0x140005 0x0 0x0 0x0 0x0 0x0 0x180007 0x0 0x30 0x0 0x1e0002 0x0 0x270005 0x0 0x0 0x0 0x0 0x0 0x2b0005 0x0 0x0 0x0 0x0 0x0 oops 0
+ciMethodData javafx/scene/effect/Effect impl_sync ()V 1 8 orig 144 152 11 117 103 0 0 0 0 24 225 242 86 0 0 0 0 24 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 112 0 0 0 255 255 255 255 0 0 0 0 2 0 4 0 0 0 0 0 data 14 0x40002 0x0 0x70007 0x0 0x60 0x0 0xb0005 0x0 0x0 0x0 0x0 0x0 0x120002 0x0 oops 0
+ciMethodData javafx/scene/effect/Effect isEffectDirty (Lcom/sun/javafx/effect/EffectDirtyBits;)Z 1 20 orig 144 152 11 117 103 0 0 0 0 168 223 242 86 0 0 0 0 72 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 20 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 152 0 0 0 255 255 255 255 0 0 0 0 5 0 4 0 0 0 0 0 data 19 0x40005 0x0 0x0 0x0 0x0 0x0 0x80005 0x0 0x0 0x0 0x0 0x0 0xc0007 0x0 0x38 0x0 0x100003 0x0 0x18 oops 0
+ciMethodData javafx/beans/property/IntegerPropertyBase get ()I 1 317 orig 144 152 11 117 103 0 0 0 0 192 38 1 87 0 0 0 0 16 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 61 1 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 104 0 0 0 255 255 255 255 0 0 0 0 7 0 9 0 0 0 0 0 data 13 0x90007 0x0 0x38 0x0 0x100003 0x0 0x48 0x170005 0x0 0x0 0x0 0x0 0x0 oops 0
+ciMethodData javafx/scene/effect/Effect clearEffectDirty (Lcom/sun/javafx/effect/EffectDirtyBits;)V 1 4 orig 144 152 11 117 103 0 0 0 0 104 224 242 86 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 112 0 0 0 255 255 255 255 0 0 0 0 5 0 5 0 0 0 0 0 data 14 0x50005 0x0 0x0 0x0 0x0 0x0 0x90005 0x0 0x0 0x0 0x0 0x0 0xf0002 0x0 oops 0
+ciMethodData javafx/scene/effect/Effect setEffectDirty (I)V 1 68 orig 144 152 11 117 103 0 0 0 0 80 220 242 86 0 0 0 0 16 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 68 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 96 0 0 0 255 255 255 255 0 0 0 0 5 0 1 0 0 0 0 0 data 12 0x10005 0x0 0x0 0x0 0x0 0x0 0x50005 0x0 0x0 0x0 0x0 0x0 oops 0
+ciMethodData com/sun/javafx/sg/prism/NGNode effectChanged ()V 1 8 orig 144 152 11 117 103 0 0 0 0 56 213 234 86 0 0 0 0 216 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 48 0 0 0 255 255 255 255 0 0 0 0 5 0 1 0 0 0 0 0 data 6 0x10005 0x0 0x0 0x0 0x0 0x0 oops 0
+ciMethodData javafx/scene/effect/Effect impl_getImpl ()Lcom/sun/scenario/effect/Effect; 1 12 orig 144 152 11 117 103 0 0 0 0 136 219 242 86 0 0 0 0 248 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 80 0 0 0 255 255 255 255 0 0 0 0 7 0 4 0 0 0 0 0 data 10 0x40007 0x0 0x50 0x0 0x90005 0x0 0x0 0x0 0x0 0x0 oops 0
+ciMethodData com/sun/javafx/sg/prism/NGNode setEffect (Lcom/sun/scenario/effect/Effect;)V 1 138 orig 144 152 11 117 103 0 0 0 0 136 212 234 86 0 0 0 0 40 3 0 0 40 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 138 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 120 2 0 0 255 255 255 255 0 0 0 0 5 0 1 0 0 0 0 0 data 79 0x10005 0x0 0x0 0x0 0x0 0x0 0x80007 0x0 0x20 0x0 0x110007 0x0 0x98 0x0 0x150007 0x0 0x78 0x0 0x1f0002 0x0 0x260005 0x0 0x0 0x0 0x0 0x0 0x290003 0x0 0x118 0x300007 0x0 0x100 0x0 0x370005 0x0 0x0 0x0 0x0 0x0 0x3b0007 0x0 0xb0 0x0 0x420005 0x0 0x0 0x0 0x0 0x0 0x4b0007 0x0 0x30 0x0 0x550002 0x0 0x5c0005 0x0 0x0 0x0 0x0 0x0 0x610007 0x0 0x90 0x0 0x650007 0x0 0x40 0x0 0x690007 0x0 0x50 0x0 0x6d0005 0x0 0x0 0x0 0x0 0x0 oops 0
+ciMethodData com/sun/javafx/sg/prism/NGNode setVisible (Z)V 1 138 orig 144 152 11 117 103 0 0 0 0 184 204 234 86 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 138 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 80 0 0 0 255 255 255 255 0 0 0 0 7 0 5 0 0 0 0 0 data 10 0x50007 0x0 0x50 0x0 0xe0005 0x0 0x0 0x0 0x0 0x0 oops 0
+ciMethodData com/sun/javafx/sg/prism/NGNode setDepthTest (Z)V 1 138 orig 144 152 11 117 103 0 0 0 0 72 210 234 86 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 138 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 80 0 0 0 255 255 255 255 0 0 0 0 7 0 5 0 0 0 0 0 data 10 0x50007 0x0 0x50 0x0 0xe0005 0x0 0x0 0x0 0x0 0x0 oops 0
+ciMethodData javafx/scene/Node getBlendMode ()Ljavafx/scene/effect/BlendMode; 1 138 orig 144 152 11 117 103 0 0 0 0 48 203 218 86 0 0 0 0 64 1 0 0 32 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 138 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 152 0 0 0 255 255 255 255 0 0 0 0 7 0 4 0 0 0 0 0 data 19 0x40007 0x0 0x38 0x0 0x80003 0x0 0x78 0xf0005 0x0 0x0 0x0 0x0 0x0 0x120004 0x0 0x0 0x0 0x0 0x0 oops 0
+ciMethodData com/sun/javafx/sg/prism/NGNode setNodeBlendMode (Lcom/sun/scenario/effect/Blend$Mode;)V 1 138 orig 144 152 11 117 103 0 0 0 0 136 209 234 86 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 138 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 128 0 0 0 255 255 255 255 0 0 0 0 7 0 5 0 0 0 0 0 data 16 0x50007 0x0 0x80 0x0 0xe0005 0x0 0x0 0x0 0x0 0x0 0x120005 0x0 0x0 0x0 0x0 0x0 oops 0
+compile javafx/scene/Node impl_updatePeer ()V -1 3

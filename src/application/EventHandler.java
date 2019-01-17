@@ -5,6 +5,8 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.ResourceBundle;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import javax.swing.JOptionPane;
 
@@ -68,6 +70,9 @@ public class EventHandler
     @FXML
     private CheckBox addFileNumbers;
 
+	@FXML
+	private CheckBox replaceDelimitersWithSpaces;
+
     File	 directory;
     List<File>	 files;
     List<String> newFilenames;
@@ -76,6 +81,7 @@ public class EventHandler
     {
 	getPreviewButton.setDisable(isDisabled);
 	addFileNumbers.setDisable(isDisabled);
+	replaceDelimitersWithSpaces.setDisable(isDisabled);
 	emptyPreviewB.setDisable(isDisabled);
     }
 
@@ -309,11 +315,33 @@ public class EventHandler
 	    if (addFileNumbers.isSelected()) this.addFileNumbers(filename, fileNumber);
 	    fileNumber++;
 
+
+	    int fileExtensionStart = filename.lastIndexOf(".")+1;
+
+	    if(replaceDelimitersWithSpaces.isSelected())
+		{
+			replaceAll(filename, Pattern.compile("[._]"), " ");
+			filename.replace(fileExtensionStart-1,fileExtensionStart,".");
+
+		}
+
+	    String fileExtension = filename.substring(fileExtensionStart, filename.length());
+	    fileExtension = fileExtension.toLowerCase();
+	    filename.replace(fileExtensionStart, filename.length(), fileExtension );
+
+
 	    modifiedFilenames.add(filename.toString());
 	}
 
 	return modifiedFilenames;
     }
+
+	public static void replaceAll(StringBuilder sb, Pattern pattern, String replacement) {
+		Matcher m = pattern.matcher(sb);
+		while(m.find()) {
+			sb.replace(m.start(), m.end(), replacement);
+		}
+	}
 
     @SuppressWarnings("static-access")
     @FXML
