@@ -2,19 +2,16 @@ package application;
 
 import java.io.File;
 import java.net.URL;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.ResourceBundle;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import javax.swing.JOptionPane;
 
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
-import javafx.scene.control.Button;
-import javafx.scene.control.CheckBox;
-import javafx.scene.control.ListView;
-import javafx.scene.control.TextField;
+import javafx.scene.control.*;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.text.Font;
@@ -25,6 +22,12 @@ public class EventHandler
 
     @FXML
     private ResourceBundle resources;
+
+	@FXML
+	private TextField customFileTypes;
+
+	@FXML
+	private ComboBox<String> fileTypesC;
 
     @FXML
     private Button emptyPreviewB;
@@ -73,9 +76,18 @@ public class EventHandler
 	@FXML
 	private CheckBox replaceDelimitersWithSpaces;
 
-    File	 directory;
-    List<File>	 files;
-    List<String> newFilenames;
+	@FXML
+	private Button mergeDirectoriesButton;
+
+	private boolean disableFilter = false;
+    File	directory;
+
+
+
+	List<String> unfilteredCurrentFiles = new ArrayList<>();
+	ObservableList<String> filteredCurrentFiles = FXCollections.observableArrayList();
+	ObservableList<String> filteredPreviewFiles = FXCollections.observableArrayList();
+	Map<String,List<String>> fileTypes = new LinkedHashMap<>();
 
     public void disableButtons(Boolean isDisabled)
     {
@@ -138,43 +150,76 @@ public class EventHandler
     void setDirectory(MouseEvent event)
     {
 	directory = this.chooseDirectory(directory, "Choose directory to edit");
-	CurrentFilesList.getItems().clear();
+	filteredCurrentFiles.clear();
+	unfilteredCurrentFiles.clear();
+	filteredCurrentFiles.clear();
 	if (directory == null) return;
-	files = this.getFilesInDirectory(directory);
+	List<File> files = this.getFilesInDirectory(directory);
 
 	for (File f : files)
 	{
-	    CurrentFilesList.getItems().add(f.getName());
+	    filteredCurrentFiles.add(f.getName());
+		unfilteredCurrentFiles.add(f.getName());
 	}
-	CurrentFilesList.getItems().sort(null);
+	filteredCurrentFiles.sort(null);
 	this.disableButtons(false);
 	renameFilesButton.setDisable(true);
+	filteredPreviewFiles.clear();
+
+	disableFilter = false;
+	filterFiles();
     }
 
+	@FXML
+	void mergeDirectories(MouseEvent event)
+	{
+		/*
+		directory = this.chooseDirectory(directory, "Choose directory to edit");
+		filteredCurrentFiles.clear();
+		unfilteredCurrentFiles.clear();
+		filteredCurrentFiles.clear();
+
+		FileFilter directoryFilter = new FileFilter(){
+			public boolean accept(File dir) {
+				if (dir.isDirectory()) {
+					return true;
+				} else {
+					return false;
+				}
+			}
+		};
+
+				File[] subDirectories = directory.listFiles(directoryFilter);
+		for(File dir : subDirectories){
+			List<File> files = this.getFilesInDirectory(dir);
+			for(File f: files)
+			unfilteredCurrentFiles.add(f.getName());
+		}
+
+		 */
+	}
+
     @FXML
-    void makePreviewList(MouseEvent event)
+    void makePreviewList()
     {
 	List<String> previewFilenames = this.createModifiedFilenameList();
-	PreviewFilesList.getItems().clear();
-	PreviewFilesList.getItems().addAll(previewFilenames);
+	filteredPreviewFiles.clear();
+	filteredPreviewFiles.addAll(previewFilenames);
 
-	newFilenames = PreviewFilesList.getItems();
 	renameFilesButton.setDisable(false);
     }
 
     @FXML
     void makeEmptyPreviewList()
     {
-	PreviewFilesList.getItems().clear();
+	filteredPreviewFiles.clear();
 	int fileNumber = Integer.parseInt(kTextField.getText());
 
 	List<String> modifiedFilenames = new ArrayList<String>();
 
-	files.sort(null);
-
-	for (int i = 0; i < files.size(); i++)
+	for (int i = 0; i < filteredCurrentFiles.size(); i++)
 	{
-	    StringBuilder filename = new StringBuilder(files.get(i).getName());
+	    StringBuilder filename = new StringBuilder(filteredCurrentFiles.get(i));
 	    int lastIndex = this.calculateLastIndex(filename);
 
 	    for (int k = 0; k < lastIndex + 1; k++)
@@ -187,25 +232,110 @@ public class EventHandler
 
 	    modifiedFilenames.add(filename.toString());
 	}
-	PreviewFilesList.getItems().addAll(modifiedFilenames);
+	filteredPreviewFiles.addAll(modifiedFilenames);
 
-	newFilenames = PreviewFilesList.getItems();
+
 	renameFilesButton.setDisable(false);
-
     }
+
+	String getFileExtension(String file){
+		int fileExtensionStart = file.lastIndexOf(".")+1;
+		return file.substring(fileExtensionStart, file.length()).toLowerCase();
+	}
+
+	boolean checkFilter(String file)
+	{
+		String fileExtension = getFileExtension(file);
+		String selectedFileText = fileTypesC.getSelectionModel().getSelectedItem();
+		List<String> selectedFileTypes = fileTypes.get(selectedFileText);
+		if(selectedFileText == "Any") return true;
+		else if (selectedFileText == "Custom")
+		{
+			String extensionsString = customFileTypes.getText().trim().replaceAll("\\.","");
+			System.out.println("Custom Extensions Text: " + extensionsString);
+			String[] splitExtensions = extensionsString.split(" ");
+			System.out.println("Custom Extensions Array: " + Arrays.toString(splitExtensions));
+			List<String> extensionsList = new ArrayList<>(List.of(splitExtensions));
+			return extensionsList.contains(fileExtension);
+		}
+
+
+		return selectedFileTypes.contains(fileExtension);
+	}
+
+	void filterList(List<String> unfiltered, List<String> filtered)
+	{
+		filtered.clear();
+		unfiltered.forEach((k) ->
+				{
+					//System.out.println("Selected File Types: "+ selectedFileTypes);
+					if (checkFilter(k)) {
+						filtered.add(k);
+					}
+				}
+		);
+	}
+
+	void filterList(ArrayList<File> unfiltered, ArrayList<File> filtered)
+	{
+		filtered.clear();
+		unfiltered.forEach((k) ->
+				{
+					//System.out.println("Selected File Types: "+ selectedFileTypes);
+					if (checkFilter(k.getName())) {
+						filtered.add(k);
+					}
+				}
+		);
+	}
+	@FXML
+	void filterFiles()
+	{
+		if(!disableFilter) {
+			filterList(unfilteredCurrentFiles, filteredCurrentFiles);
+			makePreviewList();
+
+			System.out.println("Filtered Files Count");
+			System.out.println("Current: " + filteredCurrentFiles.size() + "     Preview: " + filteredPreviewFiles.size());
+			sortFiles();
+		}
+	}
+
+	void sortFiles(){
+		unfilteredCurrentFiles.sort(null);
+		filteredCurrentFiles.sort(null);
+		filteredPreviewFiles.sort(null);
+	}
+
+	@FXML
+	void checkFilterOnType(){
+		if (fileTypesC.getSelectionModel().getSelectedItem() == "Custom"){
+			filterFiles();
+		}
+	}
 
     @FXML
     void renameFiles(MouseEvent event)
     {
-	for (int i = 0; i < files.size(); i++)
+		if(filteredCurrentFiles.size() != filteredPreviewFiles.size()) {
+			JOptionPane error = new JOptionPane();
+			error.showMessageDialog(null, "The number in files in both directories is not equal, try again", "Error", JOptionPane.ERROR_MESSAGE);
+			return;
+		}
+
+	for (int i = 0; i < filteredCurrentFiles.size(); i++)
 	{
-	    File newFile = new File(directory.getAbsolutePath() + "/" + newFilenames.get(i));
-	    files.get(i).renameTo(newFile);
+		File oldFile = new File(directory.getAbsolutePath() + "/" + filteredCurrentFiles.get(i));
+	    File newFile = new File(directory.getAbsolutePath() + "/" + filteredPreviewFiles.get(i));
+
+	oldFile.renameTo(newFile);
 	}
 
-	CurrentFilesList.getItems().clear();
-	PreviewFilesList.getItems().clear();
+	filteredCurrentFiles.clear();
+	filteredCurrentFiles.addAll(filteredPreviewFiles);
 
+
+	/*
 	files = this.getFilesInDirectory(directory);
 	List<String> tempFilenames = new ArrayList<String>();
 	for (File f : files)
@@ -213,7 +343,9 @@ public class EventHandler
 	    tempFilenames.add(f.getName());
 	}
 	tempFilenames.sort(null);
-	CurrentFilesList.getItems().addAll(tempFilenames);
+	filteredCurrentFiles.addAll(tempFilenames);
+
+	 */
     }
 
     public int calculateLastIndex(StringBuilder filename)
@@ -260,7 +392,7 @@ public class EventHandler
 	    JOptionPane error = new JOptionPane();
 	    error.showMessageDialog(null, "Error: one or more filenames have been completely removed." + "\n" + "Try Again", "Error",
 		    JOptionPane.ERROR_MESSAGE);
-	    PreviewFilesList.getItems().clear();
+	    filteredPreviewFiles.clear();
 	    return null;
 	}
 
@@ -288,7 +420,7 @@ public class EventHandler
 	    filename.insert(0, 0);
 	}
 
-	if (files.size() >= 100 && fileNumber < 100)
+	if (filteredCurrentFiles.size() >= 100 && fileNumber < 100)
 	{
 	    filename.insert(0, '0');
 	}
@@ -297,16 +429,16 @@ public class EventHandler
 
     public List<String> createModifiedFilenameList()
     {
-	PreviewFilesList.getItems().clear();
+	filteredPreviewFiles.clear();
 	int fileNumber = Integer.parseInt(kTextField.getText());
 
 	List<String> modifiedFilenames = new ArrayList<String>();
 
-	files.sort(null);
+	filteredCurrentFiles.sort(null);
 
-	for (int i = 0; i < files.size(); i++)
+	for (int i = 0; i < filteredCurrentFiles.size(); i++)
 	{
-	    StringBuilder filename = new StringBuilder(files.get(i).getName());
+	    StringBuilder filename = new StringBuilder(filteredCurrentFiles.get(i));
 	    int lastIndex = this.calculateLastIndex(filename);
 	    filename = this.deleteCharsFromFilename(lastIndex, filename);
 
@@ -325,12 +457,11 @@ public class EventHandler
 
 		}
 
-	    String fileExtension = filename.substring(fileExtensionStart, filename.length());
-	    fileExtension = fileExtension.toLowerCase();
+	    String fileExtension = filename.substring(fileExtensionStart, filename.length()).toLowerCase();
 	    filename.replace(fileExtensionStart, filename.length(), fileExtension );
 
 
-	    modifiedFilenames.add(filename.toString());
+	    modifiedFilenames.add(filename.toString().trim());
 	}
 
 	return modifiedFilenames;
@@ -354,24 +485,30 @@ public class EventHandler
 	directory = this.chooseDirectory(directory, "Choose directory to copy filnames to");
 	if (directory == null) return;
 
-	CurrentFilesList.getItems().clear();
-	PreviewFilesList.getItems().clear();
-	newFilenames = new ArrayList<String>();
+	filteredCurrentFiles.clear();
+	filteredPreviewFiles.clear();
 
-	files = this.getFilesInDirectory(directory);
+	ArrayList<File> unFilteredFiles = (ArrayList<File>) this.getFilesInDirectory(directory);
+
+	unfilteredCurrentFiles.clear();
+	for(File f: unFilteredFiles){unfilteredCurrentFiles.add(f.getName());}
 	// List<File> files2 = this.getFilesInDirectory(cpyFromDirectory);
-	List<File> files2 = new ArrayList<File>();
+	ArrayList<File> unFilteredFiles2 = (ArrayList<File>) this.getFilesInDirectory(cpyFromDirectory);
+	ArrayList<File> files = new ArrayList<File>();
+			filterList(unFilteredFiles, files);
+		ArrayList<File> files2 = new ArrayList<File>();
+		filterList(unFilteredFiles2, files2);
 
-	for (int i = 0; i < cpyFromDirectory.listFiles().length; i++)
-	{
-	    File f = cpyFromDirectory.listFiles()[i];
-	    File cpyFrom = directory.listFiles()[i];
-	    String fileType = cpyFrom.getName().substring(calculateLastIndex(cpyFrom.getName()) + 1);
-	    System.out.println("FileType is: " + fileType + "\n");
-	    files2.add(new File(f.getName().substring(0, calculateLastIndex(f.getName()) + 1) + fileType));
+	try {
+		for (int i = 0; i < files.size(); i++) {
+			File f = files.get(i);
+			File cpyFrom = files2.get(i);
+			String fileType = cpyFrom.getName().substring(calculateLastIndex(cpyFrom.getName()) + 1);
+			System.out.println("FileType is: " + fileType + "\n");
+			// files2.add(new File(f.getName().substring(0, calculateLastIndex(f.getName()) + 1) + fileType));
+		}
 	}
-
-	if (files.size() != files2.size())
+	catch(ArrayIndexOutOfBoundsException e)
 	{
 	    JOptionPane error = new JOptionPane();
 	    error.showMessageDialog(null, "The number in files in both directories is not equal, try again", "Error", JOptionPane.ERROR_MESSAGE);
@@ -379,17 +516,19 @@ public class EventHandler
 	}
 	for (File f : files)
 	{
-	    CurrentFilesList.getItems().add(f.getName());
+	    filteredCurrentFiles.add(f.getName());
 	}
 
 	for (File f : files2)
 	{
-	    PreviewFilesList.getItems().add(f.getName());
-	    newFilenames.add(f.getName());
+	    filteredPreviewFiles.add(f.getName());
 	}
 	this.disableButtons(true);
 	renameFilesButton.setDisable(false);
+	disableFilter = true;
     }
+
+
 
     @FXML
     void initialize()
@@ -409,6 +548,23 @@ public class EventHandler
 	assert frame != null : "fx:id=\"frame\" was not injected: check your FXML file 'Sample.fxml'.";
 	renameFilesButton.setDisable(true);
 	this.disableButtons(true);
+	assert fileTypesC != null;
+
+	fileTypes.put("Music", List.of("mp3","flac","ogg", "pcm", "wav", "aac", "wma", "m4a"));
+	fileTypes.put("Video", List.of("mkv", "webm", "flv","avi", "wmv", "mp4", "m4v", "av1"));
+	fileTypes.put("Any", List.of());
+	fileTypes.put("Custom", new ArrayList<>());
+
+	fileTypesC.getItems().addAll(fileTypes.keySet());
+	fileTypesC.getSelectionModel().select(0);
+
+CurrentFilesList.setItems(filteredCurrentFiles);
+PreviewFilesList.setItems(filteredPreviewFiles);
+mergeDirectoriesButton.setDisable(true);
+		
+	assert customFileTypes != null;
+
+
     }
 
 }

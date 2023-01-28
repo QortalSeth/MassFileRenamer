@@ -25,3 +25,7 @@ public class Main extends Application {
 		launch(args);
 	}
 }
+
+
+// compile info
+// jpackage --type exe --input ./Executable/JAR --dest ./Executable --main-jar ./MassFileRenamer.jar --main-class application.Main --module-path "C:\Program Files\BellSoft\LibericaJDK-19-Full\jmods" --add-modules javafx.controls,javafx.fxml --icon Icon.ico --name "7th-Saga-Editor"
